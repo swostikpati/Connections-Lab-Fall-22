@@ -1,2 +1,2 @@
-# Connections-Lab-Fall-22
-Full Stack Web Development
+# Connections Lab Fall 2022
+
