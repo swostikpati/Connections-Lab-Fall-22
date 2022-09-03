@@ -6,6 +6,10 @@ body {
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #logo {
     /* width: 30px; */
     cursor: pointer;
@@ -34,21 +38,30 @@ header {
 }
 
 .nav_links li {
+    display: inline-block;
+    transition: scale 0.5s;
+}
+
+.nav_links li a {
 
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: azure;
     text-decoration: none;
-    display: inline-block;
+
     padding-left: 60px;
-    transition: scale 0.7s, color 1s;
+    transition: color 1s;
 }
 
+
 .nav_links li:hover {
-    color: cyan;
     scale: 1.08;
     cursor: default;
+}
+
+.nav_links li a:hover {
+    color: cyan;
 }
 
 .bg_video {
