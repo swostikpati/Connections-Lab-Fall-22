@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 #logo {
     /* width: 30px; */
     cursor: pointer;
@@ -24,6 +30,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 5px 5%;
+    height: auto;
 }
 
 .nav_links li {
@@ -35,10 +42,13 @@ header {
     text-decoration: none;
     display: inline-block;
     padding-left: 60px;
+    transition: scale 0.7s, color 1s;
 }
 
 .nav_links li:hover {
     color: cyan;
+    scale: 1.08;
+    cursor: default;
 }
 
 .bg_video {
@@ -88,3 +98,129 @@ h2 {
     margin-bottom: 0;
     font-size: 70px;
 }
+
+.sec1 {
+    margin-top: 270px;
+    background-color: black;
+    text-align: center;
+    height: auto;
+    margin-bottom: 0px;
+    border-bottom: 1px dotted whitesmoke;
+}
+
+.sec1 h2 {
+    border-top: 1px dotted whitesmoke;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.project {
+
+    display: flex;
+    color: white;
+
+}
+
+.project div {
+    width: 100%;
+    height: auto;
+}
+
+.project img {
+    height: auto;
+    width: 80%;
+    /* flex: 1; */
+}
+
+.project .image {
+    height: auto;
+    width: 100%;
+    border-right: 1px dotted white;
+}
+
+.text {
+    /* padding: 25px; */
+    padding-top: 100px;
+    border-left: 1px dotted white;
+}
+
+.text p {
+    padding: 100px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sec2 {
+    margin-top: 0px;
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(7, 0, 86));
+    padding: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.sec2 h2 {
+    margin-top: 0;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec2 h3 {
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec3 {
+    margin-top: 0px;
+    background-image: linear-gradient(to bottom right, rgb(2, 0, 27), rgb(0, 0, 0));
+    text-align: center;
+}
+
+.sec3 h2 {
+    margin-top: 0;
+    padding: 25px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+.sec3 div {
+    display: flex;
+    justify-content: center;
+} */
+
+.sec3 div img {
+    width: auto;
+    height: 300px;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+footer h3 {
+    margin-bottom: 0;
+    padding-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .sec3 div {
+    display: flex;
+} */
+
+/* .image {
+    border-right: 5px solid white;
+    padding-left: 70px;
+    padding-right: 30px;
+} */
+
+/* .text {
+    color: #fff;
+    /* width: 50%;
+    padding-left: 130px;} */
