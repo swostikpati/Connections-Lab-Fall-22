@@ -71,6 +71,6 @@ By the end some UI changes had accumulated in the [final wireframe](https://gith
 
 ## Suggested Improvements
 
-
+I think one of the most important things I want to employ in the website is to make it responsive. I obvserved that the elements of the website become extremely screwed when I change the dimensions of the website window. Going forward, I would love to add this functionality in my website. 
 
 
