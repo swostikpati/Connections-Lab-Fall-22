@@ -22,5 +22,21 @@ So I designed a [second logo](https://github.com/swostikpati/Connections-Lab-Fal
 There came the [third logo](https://github.com/swostikpati/Connections-Lab-Fall-22/blob/main/Week%201/1.2/Project/project_website/assets/logo3.png). This time I focussed on making the logo much more aligned to Arduino. The logo of Arduino is put behind (with reduced opacity) behind the main logo which says __M5 Arduino__ in bright white. This logo I felt really fit with both the theme and the purpose of the website.
 
 
-## Nav Bar
-I generally had used the bootstrap navbar
+## Navigation Bar
+I generally had used the bootstrap navbars before. This time I had to code it myself from scratch. I read some articles online to understand the process and finally felt I could code it. This was also a good opprotunity to use flex-box. After reading some flex-box documentation, experimenting with many things, I finally was able to make a decent enough navbar.  The background of the navbar was a solid fill initially. Going forward, when I added the video in the background, I felt making the Navbar transparent would make much more sense and it did work. I even added the home page link to the logo, even though this feature felt useless in the end as the navbar didn't scroll till the end of the page. I didn't like the pre-existing fonts available and therefore added a imported a font from google fonts to use it in the Nav bar elements and even further in various parts of the website.
+
+None of the buttons had any functionality initially. I wanted to add effects on them. I knew this was possible, but had to look up documentation to understand how to do it. Finally, I was able to add the hover effect on the list items. I also added a transition to them to make the hover effect for smooth. I did encounter a problem with the effects later when I tried to use the buttons to navigate to specific sections in the website. I had to add an anchor tag and this caused some problems in selecting elements in CSS. After a while of experimenting and understanding, I was able to finally troubleshoot the problem. This is the final look of the navbar
+
+![image](https://user-images.githubusercontent.com/67205637/188309162-d677e89d-cec6-4616-b1cf-bdb151ebde73.png)
+ 
+## Homescreen Background Video and Heading 
+Even though I have a bit of past experience in Web development, the one tag I had never used was the video tag. It was a really difficult thing to incorporate in the website, especially as a background. After meddling it with for about an hour, reading many posts on stackoverflow and other websites, I finally somehow was able to upload my video into the website as a background. I also made the video to continuously loop in the background. It was also a bit difficult to put the video a layer below other elements so that the elements in the transparant nav bar were visible while at the same time keeping the video inline. Finally, everything fell into place. 
+
+After the video was put perfectly in its place, I added the heading and the sub-heading. It took me some time to ideate what to write. I tried several combination of text, fonts, and size. Finally I decided on going with this.
+
+![image](https://user-images.githubusercontent.com/67205637/188309671-3e78b2df-e2d9-4cc7-8b0d-d9f76408344d.png)
+
+I didn't want to repeat writing Arduino M5 Core which was already conveyed using the website title and the logo.
+
+
+
