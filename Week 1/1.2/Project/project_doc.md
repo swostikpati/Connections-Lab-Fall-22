@@ -36,7 +36,22 @@ After the video was put perfectly in its place, I added the heading and the sub-
 
 ![image](https://user-images.githubusercontent.com/67205637/188309671-3e78b2df-e2d9-4cc7-8b0d-d9f76408344d.png)
 
-I didn't want to repeat writing Arduino M5 Core which was already conveyed using the website title and the logo.
+I didn't want to repeat writing Arduino M5 Core which was already conveyed using the website title and the logo so decided to focus more on what I had made than the device I used to make it.
+
+## Project Development
+
+By this section, I had become somewhat proficient in manipulating HTML and CSS. But it still took a lot of time and debugging to be able to place the images and text in the right place. I did use the flexbox tool again to make things easier, but regardless, the picture sizes were too huge to be placed in the screen. I scaled them down. This is where I deviated a bit from my initial wireframe. Instead of alternating between picture in the left and picture in the right, I decided on keeping all the pictures on the left and all the description on the right. A thin dotted border also ran along the center of the screen. I felt this made more sense with respect to the user experience and overall flow of the website. I employed the changes in the website and the wireframe as well. 
+
+A lot of the structural coding here was done by manipulating the width and height. I felt this could be done more easily using flexbox, but I was unable to figure out how to achieve it. This is one of the things I will be looking forward to understanding more in depth. 
+
+This is the final design of the project development page.
+
+//add video
+
+
+
+
+
 
 
 
