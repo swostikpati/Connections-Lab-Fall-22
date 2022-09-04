@@ -224,11 +224,13 @@ h2 {
     width: auto;
     height: 150px;
     padding: 10px;
+    padding-top: 0;
 
 }
 
 .sec3 div {
     border-bottom: 2px solid whitesmoke;
+    padding-bottom: 10px;
 }
 
 .sec3 p {
