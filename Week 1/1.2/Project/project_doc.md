@@ -5,7 +5,7 @@ https://user-images.githubusercontent.com/67205637/188312201-672287ef-e770-483f-
 #### This is the website for the final project of the Computer Programming for Engineers Course. It was based on the principle of bio-feedback. I made a pedometer capable of step detection, distance estimation, and calorie calculation. This is my journey of building the website for the project.
 
 ## Initial Wireframing
-I had a design in mind and directly went into figma to build a wireframe. This was the [initial prototype](https://github.com/swostikpati/Connections-Lab-Fall-22/blob/main/Week%201/1.2/Project/Project%20Wireframe%20Initial.pdf) I made. The wireframe divided the entire website into four parts: the Homescreen, the Project Development section, the Project Testing section, and the Project Research section 
+I had a design in mind and directly went into figma to build a wireframe. This was the [initial prototype](https://github.com/swostikpati/Connections-Lab-Fall-22/blob/main/Week%201/1.2/Project/Wireframes/Project%20Wireframe%20Initial.pdf) I made. The wireframe divided the entire website into four parts: the Homescreen, the Project Development section, the Project Testing section, and the Project Research section 
 
 The home page has a navigation bar on the top with a video playing in the background. The heading and the sub heading is centered on the screen. 
 
@@ -67,7 +67,7 @@ As decided I added the links to the github repository and the project report usi
 
 I added links to each section on the Navbar. I also made the scroll behavior smooth to make it feel more subtle and professional. 
 
-By the end some UI changes had accumulated in the [final wireframe](https://github.com/swostikpati/Connections-Lab-Fall-22/blob/main/Week%201/1.2/Project/Project%20Wireframe%20Final.pdf).
+By the end some UI changes had accumulated in the [final wireframe](https://github.com/swostikpati/Connections-Lab-Fall-22/blob/main/Week%201/1.2/Project/Wireframes/Project%20Wireframe%20Final.pdf).
 
 ## Suggested Improvements
 
