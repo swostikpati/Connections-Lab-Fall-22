@@ -22,6 +22,8 @@
     </header>
     <video autoplay loop muted plays-inline class="bg_video">
         <source src="./assets/bg_video1.mp4" type="video/mp4">
+        <!-- <source src="https://drive.google.com/file/d/1KudG_wJxcjXqKZK49WYNDRptQHx0D2fk/view?usp=sharing"
+            type="video/mp4"> -->
     </video>
     <div class="heading">
         <h1>Pedometer</h1>
@@ -35,41 +37,70 @@
 
             <div class="image"> <img src="./assets/init_ui.png" alt="initial UI"> </div>
             <div class="text">
-                <h4>Something random</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam incidunt ab atque id!
-                    Necessitatibus, sapiente dolorem, recusandae quis itaque consequuntur labore minus assumenda beatae
-                    voluptates quasi deleniti animi molestiae sint.</p>
+                <h4>INITIAL USER INTERFACE</h4>
+                <p>This is a view of the inital user interface the user is greeted to. The user is asked to input their
+                    weight using 4 buttons (+/-5 and +/-1). When the user has finally finished putting their weight,
+                    they click the Done button. The code for taking input from the user is two-fold -
+                    creating the static interface for the user to interact and taking input through touch. All the
+                    buttons are designed in a specific way so as to avoid multiple inputs due to the refresh rate of the
+                    screen.</p>
             </div>
         </div>
         <div class="project">
 
             <div class="image"> <img src="./assets/final_ui1.png" alt="final UI"> </div>
             <div class="text">
-                <h4>Something random</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam incidunt ab atque id!
-                    Necessitatibus, sapiente dolorem, recusandae quis itaque consequuntur labore minus assumenda beatae
-                    voluptates quasi deleniti animi molestiae sint.</p>
+                <h4>FINAL USER INTERFACE</h4>
+                <h5>(Before Walking)</h5>
+                <p>The final user interface shows the user the number of steps they took, the distance they traveled
+                    and the number of calories they burnt during the period. The screen keeps getting updated every
+                    200 ms as the function gets called in the loop function. The image below shows how the final UI
+                    looks like just after the user has entered there weight.</p>
             </div>
         </div>
         <div class="project">
 
             <div class="image"> <img src="./assets/final_ui2.png" alt="final UI"> </div>
             <div class="text">
-                <h4>Something random</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam incidunt ab atque id!
-                    Necessitatibus, sapiente dolorem, recusandae quis itaque consequuntur labore minus assumenda beatae
-                    voluptates quasi deleniti animi molestiae sint.</p>
+                <h4>FINAL USER INTERFACE</h4>
+                <h5>(After Walking)</h5>
+                <p>This is the view of the final user interface after the user has walked a certain distance. The device
+                    rapidly calculates the steps, computes the distance traveled and calories burnt in real time and
+                    shows it to the user. The code has specific components designed to prevent detection of rapid
+                    movements as steps thus ensuring a high level of accuracy while detecting steps and calculating
+                    calories.</p>
             </div>
         </div>
 
     </section>
     <section class="sec2" id="proj_test">
         <h2>Project Testing</h2>
+        <p>Each one of us walked several steps with the M5 stack tied to their wrists, or in their
+            pockets(mimicking a mobile phone). The number of steps that the user took were compared to
+            the final step count shown in the screen. It was found that for short distances the step counter
+            gave almost accurate results with an error rate of +/-2%. For long distances, the results were
+            within the error rate of step calculation was +/-5%.
+            To verify our device with other similar devices, we compared the step calculation by our device
+            to that of Google fit and the observations are laid down below:
+        </p>
         <img src="./assets/testing_01.png" alt="testing image 1">
-        <h3>Something random</h3>
+        <p>The left image shows the initial step count and the right-most one shows the final step count in
+            Google Fit. The center one shows the calculation of steps in the M5 stack for the same walk. As
+            we can see the step count in our device <strong>(286 steps)</strong> is very close to the one calculated by
+            Google Fit <strong>(2774 - 2474 = 300 steps)</strong>. Similarly. the distance traveled and calories burnt
+            were also verified in this manner.
+        </p>
+
     </section>
     <section class="sec3" id="proj_res">
         <h2>Project Research</h2>
+        <p>The process of project development wasn't an easy one. There was a lot of work that went about making the
+            device a success after overcoming several challenges during the process. Creating a viable interface for
+            user interaction, finding a robust step-detection
+            algorithm, avoiding rapid movement detection, implementing most accurate formulae for distance estimation
+            and calorie calculation, etc. needed a lot of research and implementation work in the backend which are
+            beyond the scope of the portfolio. The links to the Github repository of the project and the final project
+            paper are given below for the curious!</p>
         <div>
             <a href="https://github.com/swostikpati/Arduino-Project-M5-Stack-Core-2-Pedometer"><img
                     src="./assets/githubicon.png" alt="github icon"></a>
