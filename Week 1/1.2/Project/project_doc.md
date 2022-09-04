@@ -1,4 +1,7 @@
 # Project Documentation - Pedometer using M5 Stack Core 2 Arduino
+
+https://user-images.githubusercontent.com/67205637/188312201-672287ef-e770-483f-b7fb-d4b40695125f.mp4
+
 #### This is the website for the final project of the Computer Programming for Engineers Course. It was based on the principle of bio-feedback. I made a pedometer capable of step detection, distance estimation, and calorie calculation. This is my journey of building the website for the project.
 
 ## Initial Wireframing
@@ -48,7 +51,7 @@ A lot of the structural coding here was done by manipulating the width and heigh
 
 This is the final design of the project development page.
 
-//add video
+https://user-images.githubusercontent.com/67205637/188311868-7f0378fd-c54b-4c3c-9363-e45925770409.mp4
 
 ## Project Testing, Project Research, and Footer
 
@@ -64,7 +67,9 @@ As decided I added the links to the github repository and the project report usi
 
 I added links to each section on the Navbar. I also made the scroll behavior smooth to make it feel more subtle and professional. 
 
-By the end some UI changes had accumulated in the [final wireframe]().
+By the end some UI changes had accumulated in the [final wireframe](https://github.com/swostikpati/Connections-Lab-Fall-22/blob/main/Week%201/1.2/Project/Project%20Wireframe%20Final.pdf).
+
+## Suggested Improvements
 
 
 
