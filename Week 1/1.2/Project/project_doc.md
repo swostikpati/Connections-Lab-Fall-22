@@ -42,15 +42,29 @@ I didn't want to repeat writing Arduino M5 Core which was already conveyed using
 
 By this section, I had become somewhat proficient in manipulating HTML and CSS. But it still took a lot of time and debugging to be able to place the images and text in the right place. I did use the flexbox tool again to make things easier, but regardless, the picture sizes were too huge to be placed in the screen. I scaled them down. This is where I deviated a bit from my initial wireframe. Instead of alternating between picture in the left and picture in the right, I decided on keeping all the pictures on the left and all the description on the right. A thin dotted border also ran along the center of the screen. I felt this made more sense with respect to the user experience and overall flow of the website. I employed the changes in the website and the wireframe as well. 
 
+I had some difficulty with getting the images as well. I took screenshots from my project report and they weren't of the highest quality. I even tried making the images on canva, but felt they would look too ideal to be real and won't represent the project as it is. 
+
 A lot of the structural coding here was done by manipulating the width and height. I felt this could be done more easily using flexbox, but I was unable to figure out how to achieve it. This is one of the things I will be looking forward to understanding more in depth. 
 
 This is the final design of the project development page.
 
 //add video
 
+## Project Testing, Project Research, and Footer
 
+Making these pages were fairly simple. I did some basic changes to the wireframe like adding additional description paragraphs in the top. I even thought of playing around with a dark blue-black gradient while making sure not to go too overboard with it. It seemed to gel well with the overall theme. This is how the project testing page looked like in the end.
 
+![image](https://user-images.githubusercontent.com/67205637/188311315-7d0b08a4-e1d9-44ad-9ed2-080180f32695.png)
 
+As decided I added the links to the github repository and the project report using icons in the project research page. There was a small problem that I faced in the middle - to get dark themed icons. My background was dark and hence I needed white icons. I did find one for github but couldn't for the file icon. This is when I used canva again. I flipped the color and removed the background of an available icon and made it compatible to my website. After these modifications, I added it to my website. I added a small footer with so as to copyright my website. This is one of those features that I have seen previously in some websites and it just feels cool. This is the final view of the project research section and the footer.
+
+![image](https://user-images.githubusercontent.com/67205637/188311400-aa406a3e-5846-4192-98e8-83a5c00026ca.png)
+
+## Final Steps and Wireframe
+
+I added links to each section on the Navbar. I also made the scroll behavior smooth to make it feel more subtle and professional. 
+
+By the end some UI changes had accumulated in the [final wireframe]().
 
 
 
