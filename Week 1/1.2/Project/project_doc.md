@@ -41,6 +41,8 @@ After the video was put perfectly in its place, I added the heading and the sub-
 
 I didn't want to repeat writing Arduino M5 Core which was already conveyed using the website title and the logo so decided to focus more on what I had made than the device I used to make it.
 
+There is one challenge that still remains unsolved. The video is a large file which I had some difficulties with while pushingh it into my github repo from my local system. Finally, using github's large file system, I was able to do that. But for some reason, the video doesn't render in Github pages even while it does perfectly in my local system. I tried many other ways to make it work - like including hosting the video on Drive and Youtube - but it didn't work. 
+
 ## Project Development
 
 By this section, I had become somewhat proficient in manipulating HTML and CSS. But it still took a lot of time and debugging to be able to place the images and text in the right place. I did use the flexbox tool again to make things easier, but regardless, the picture sizes were too huge to be placed in the screen. I scaled them down. This is where I deviated a bit from my initial wireframe. Instead of alternating between picture in the left and picture in the right, I decided on keeping all the pictures on the left and all the description on the right. A thin dotted border also ran along the center of the screen. I felt this made more sense with respect to the user experience and overall flow of the website. I employed the changes in the website and the wireframe as well. 
