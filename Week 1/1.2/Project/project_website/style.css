@@ -227,3 +227,22 @@ footer h3 {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 4px;
 }
+
+@media (max-width: 1500px) {
+    .bg_video {
+        display: none;
+    }
+
+    body {
+        background-color: black;
+    }
+}
+
+/* @media (max-width: 1100px) {
+
+    .heading h1,
+    h2 {
+        font-size: small;
+    }
+
+} */
