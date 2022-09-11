@@ -7,13 +7,14 @@
 }
 
 body {
-    background-color: #f4e2df;
+    background-color: #F6E1D3;
+
 
 }
 
 #head {
     /* margin-top: 0; */
-    background-color: #fff;
+    background-color: #DAEAF1;
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid gray;
@@ -110,7 +111,9 @@ p {
 #enter_amt {
     width: 90px;
     height: 40px;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
 }
 
 #cr_cat {
@@ -136,4 +139,52 @@ p {
     border: 1px solid gray;
     border-radius: 15px;
 
+}
+
+#enter_amt {
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+#cr_ch,
+#dr_ch {
+    font-family: 'Quicksand';
+    font-size: 20px;
+    /* padding: 0; */
+}
+
+#submit {
+    height: 35px;
+    width: 70px;
+    font-family: 'Quicksand';
+    letter-spacing: 1.5px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    background-color: rgb(165, 105, 221);
+    color: #DAEAF1;
+}
+
+.table_div th {
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-top: 0;
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.delete_bt {
+    color: black;
+
+}
+
+.debit_elem {
+    color: red;
+    font-size: 20px;
+}
+
+.credit_elem {
+    color: green;
+    font-size: 20px;
 }

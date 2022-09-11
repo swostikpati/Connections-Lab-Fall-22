@@ -30,15 +30,15 @@
         <div>
             <form id="form">
                 <label for="enter_amt">ENTER AMOUNT</label><br>
-                <input type="number" id="enter_amt" name="amount" min="0" step=".01"><br>
+                <input type="number" id="enter_amt" name="amount" min="0.1" step=".01" required><br>
 
                 <div>
 
                     <input type="radio" id="credit_choice" name="crdr" value="credit" required>
-                    <label for="credit_choice">Credit</label>
+                    <label for="credit_choice" id="cr_ch">Credit</label>
 
                     <input type="radio" id="debit_choice" name="crdr" value="debit">
-                    <label for="debit_choice">Debit</label>
+                    <label for="debit_choice" id="dr_ch">Debit</label>
                 </div>
 
                 <div id="dr_cat">
@@ -68,7 +68,7 @@
                     </select>
 
                 </div>
-                <button type="submit" id="submit">Submit</button>
+                <button type="submit" id="submit">SUBMIT</button>
 
             </form>
         </div>
@@ -77,9 +77,8 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Amount</th>
-                        <th>Category</th>
-                        <th></th>
+                        <th>AMOUNT</th>
+                        <th>CATEGORY</th>
                     </tr>
                 </thead>
                 <tbody id="table_body">
@@ -88,6 +87,7 @@
             </table>
         </div>
     </section>
+
 
 
 

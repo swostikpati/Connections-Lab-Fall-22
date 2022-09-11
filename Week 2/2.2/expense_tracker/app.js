@@ -67,7 +67,14 @@ form.addEventListener("submit", (e) => {
     }
     total_amt = total_inc - total_exp;
     update();
-    tbody.innerHTML += `<tr> <td> ${amt} </td> <td> ${cat} </td> <td class = "delete_bt"> Delete </td></tr>`;
+    if (amt < 0) {
+        tbody.innerHTML += `<tr class="debit_elem"> <td> ${amt} </td> <td> ${cat} </td> <td class = "delete_bt">  X </td></tr>`;
+    }
+    else {
+        tbody.innerHTML += `<tr class="credit_elem"> <td> ${amt} </td> <td> ${cat} </td> <td class = "delete_bt">  X </td></tr>`;
+
+
+    }
 
 })
 
