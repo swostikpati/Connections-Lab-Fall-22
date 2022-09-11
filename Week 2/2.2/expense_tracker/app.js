@@ -21,6 +21,19 @@ const rd = document.getElementsByName("crdr");
 const optionsCr = document.querySelector("#Category_cr")
 const optionsDr = document.querySelector("#Category_dr")
 
+function update() {
+    document.querySelector("#cr_amt").innerText = total_inc;
+    document.querySelector("#dr_amt").innerText = total_exp;
+    let t_amt = document.querySelector(".container_amt p");
+    t_amt.innerText = total_amt;
+    if (total_amt > 0) {
+        t_amt.style.color = "#00C0A3";
+    }
+    else if (total_amt < 0) {
+        t_amt.style.color = "#ff0511";
+    }
+}
+
 rd[0].addEventListener("click", () => {
     document.querySelector("#dr_cat").style.display = "none";
     document.querySelector("#cr_cat").style.display = "block";
@@ -41,32 +54,48 @@ form.addEventListener("submit", (e) => {
     if (rd[0].checked) {
         // credit = true;
         amt = val.value;
-        total_inc += parseInt(val.value);
+        total_inc += parseFloat(val.value);
         cat = optionsCr.value
 
 
     }
     else {
         amt = ("-" + val.value);
-        total_exp += parseInt(val.value);
+        total_exp += parseFloat(val.value);
         cat = optionsDr.value;
 
     }
     total_amt = total_inc - total_exp;
-    document.querySelector("#cr_amt").innerText = total_inc;
-    document.querySelector("#dr_amt").innerText = total_exp;
-    let t_amt = document.querySelector(".container_amt p");
-    t_amt.innerText = total_amt;
-    if (total_amt > 0) {
-        t_amt.style.color = "#66ff00";
+    update();
+    tbody.innerHTML += `<tr> <td> ${amt} </td> <td> ${cat} </td> <td class = "delete_bt"> Delete </td></tr>`;
+
+})
+
+// const del = document.querySelector(".delete_bt");
+// del.addEventListener("click", () => {
+//     del.getParent.remove();
+// })
+
+const table = document.querySelector("table");
+
+table.addEventListener("click", (e) => {
+    del = e.target;
+    if (!del.classList.contains("delete_bt")) {
+        return;
     }
-    else if (total_amt < 0) {
-        t_amt.style.color = "#ff0511";
+    let del_amt = parseFloat(del.parentNode.children[0].innerText) //accessing this was super difficult
+    console.log(del_amt)
+    if (del_amt < 0) {
+        total_exp += del_amt;
+        total_amt -= del_amt;
     }
-    tbody.innerHTML += `<tr> <td> ${amt} </td> <td> ${cat} </td></tr>`; //add delete button here
-
-
-
-
+    else if (del_amt > 0) {
+        total_inc -= del_amt;
+        total_amt -= del_amt;
+    }
+    // let del_amt = del.parentNode.innerText;
+    // console.log(del_amt);
+    del.parentNode.remove();
+    update();
 
 })

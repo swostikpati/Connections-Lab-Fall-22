@@ -11,22 +11,26 @@
 
 <body>
     <section>
-        <h1>EXPENSE TRACKER</h1>
-        <div class="container_amt">
-            <p>0</p>
-        </div>
-        <div class="container_total">
-            <p class="credit">TOTAL INCOME</p>
-            <p class="debit">TOTAL EXPENSES</p>
-        </div>
-        <div class="container_total_amt">
-            <p class="credit" id="cr_amt">0</p>
-            <p class="debit" id="dr_amt">0</p>
+        <header id="head">
+            <h1>Expense Tracker</h1>
+        </header>
+        <div class="main_div">
+            <div class="container_amt">
+                <p>0</p>
+            </div>
+            <div class="container_total">
+                <p class="credit">INCOME</p>
+                <p class="debit">EXPENSES</p>
+            </div>
+            <div class="container_total_amt">
+                <p class="credit" id="cr_amt">0</p>
+                <p class="debit" id="dr_amt">0</p>
+            </div>
         </div>
         <div>
             <form id="form">
-                <label for="enter_amt">AMOUNT</label><br>
-                <input type="number" id="enter_amt" name="amount" min="0" value="0" step=".01"><br>
+                <label for="enter_amt">ENTER AMOUNT</label><br>
+                <input type="number" id="enter_amt" name="amount" min="0" step=".01"><br>
 
                 <div>
 
@@ -40,7 +44,7 @@
                 <div id="dr_cat">
                     <label for="Category">Category</label>
 
-                    <select name="categories" id="Category_dr">
+                    <select name="categories" id="Category_dr" required>
 
                         <option value="Food">Food</option>
                         <option value="Travel">Travel</option>
@@ -68,29 +72,21 @@
 
             </form>
         </div>
-        <table>
-            <thead>
-                <tr>
-                    <th>Amount</th>
-                    <th>Category</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody id="table_body">
 
-            </tbody>
-            <!-- <tbody>
-                <tr>
-                    <td>Dom</td>
-                    <td>6000</td>
-                </tr>
-                <tr class="active-row">
-                    <td>Melissa</td>
-                    <td>5150</td>
-                </tr>
-                
-            </tbody> -->
-        </table>
+        <div class="table_div">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Amount</th>
+                        <th>Category</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="table_body">
+
+                </tbody>
+            </table>
+        </div>
     </section>
 
 

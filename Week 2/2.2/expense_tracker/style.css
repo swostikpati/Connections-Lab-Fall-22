@@ -1,32 +1,59 @@
-body {
-    background-image: linear-gradient(to bottom right, #0F2027, #2C5364);
-    background-repeat: no-repeat;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4e2df;
+
+}
+
+#head {
+    /* margin-top: 0; */
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    /* border-radius: 5px; */
 }
 
 h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
-    color: beige;
+    color: #000;
     font-size: 40px;
 }
 
+section {
+    height: 100%;
+}
+
 p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Quicksand',
+        sans-serif;
     font-size: 20px;
 }
+
+/* section {
+    height: 700px;
+
+} */
 
 .container_amt {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #000;
     padding: 0px;
 }
 
 .container_amt p {
     font-size: 35px;
     margin: 10px;
+
 }
 
 .container_total {
@@ -36,9 +63,10 @@ p {
 }
 
 .container_total p {
-    padding: 10px;
+    padding: 30px;
     padding-top: 0;
     padding-bottom: 0;
+    font-weight: bold;
 }
 
 .container_total_amt {
@@ -48,15 +76,16 @@ p {
 }
 
 .container_total_amt p {
-    padding: 65px;
+    padding: 55px;
     padding-top: 0;
     padding-bottom: 0;
     font-size: 30px;
     margin: 10px;
+
 }
 
 .credit {
-    color: #66ff00;
+    color: #00C0A3;
 }
 
 .debit {
@@ -73,7 +102,7 @@ p {
 }
 
 #form :first-child {
-    color: whitesmoke;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
 }
@@ -90,4 +119,21 @@ p {
 
 #dr_cat {
     display: none;
+}
+
+.table_div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* height: 250px; */
+}
+
+.main_div {
+    background-color: white;
+    /* width: 300px; */
+    height: auto;
+    margin: 20px;
+    border: 1px solid gray;
+    border-radius: 15px;
+
 }
