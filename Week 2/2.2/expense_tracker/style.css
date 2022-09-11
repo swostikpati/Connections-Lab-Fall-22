@@ -83,3 +83,11 @@ p {
     height: 40px;
     font-size: 30px;
 }
+
+#cr_cat {
+    display: none;
+}
+
+#dr_cat {
+    display: none;
+}
