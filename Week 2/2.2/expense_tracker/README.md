@@ -24,3 +24,12 @@ This is perhaps the most important part of the application. It was designed very
 
 The next section of the application is a table which keep all the records of income and expenditure. Each record of the table keeps the amount spent/earned and the category. The user also has the option of deleting any of the records, which automatically updates the amount in the summary table.
 
+## Challenges and Further Improvements
+
+One of the biggest challenges I faced was to take input using a form. There were so many complicated things involved in the working of a form. I read lots of forum posts and seeked help from several sites whenever I faced a problem. "event.preventDefault()" was my greatest learning that stopped the website from refreshing. 
+
+Making the app extensively user-interactive was also a challenge which allowed me to understand the working of JS events even better. Updating values allowed me to understand the different layers of the DOM. All through this, the chrome developer tools were of immense help.
+
+The major improvement that I can suggest is associated with styling. I tried out a lot of color themes, but nothing seemed to work. I definitely need to completely overhaul the styling of the app. The state currently is very basic and will requrie massive improvement. Since this assignment was more about understanding JS interactions and the DOM, I didn't focus much on the design aspect. 
+
+Including a donut chart around the total amount in the summary table would also be very helpful and would make the app much more professional. This was present in the initial wireframe, but I was unable to employ it in the project due to its complexity.
