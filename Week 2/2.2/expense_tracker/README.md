@@ -1,6 +1,7 @@
 # Project Documentation - Expense Tracker Application
  
-//add video
+
+https://user-images.githubusercontent.com/67205637/189607180-2c6a64a4-ff03-4455-94a6-65958e73033c.mp4
 
 **Please view the application in mobile-view.**
 
