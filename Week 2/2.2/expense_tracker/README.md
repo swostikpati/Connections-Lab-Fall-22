@@ -11,7 +11,7 @@ This is a expense tracking application designed for small-screen devices. It is 
 
 ## Wireframing
 
-This is the wireframe of the project. The design is very minimilastic in order to help the user get the info they need pretty easily. While I have mostly stuck to the initial wireframe, there are some changes here and there that have been made.
+This is the [wireframe](https://github.com/swostikpati/Connections-Lab-Fall-22/blob/main/Week%202/2.2/expense_tracker/Expense%20Tracker%20Wireframe.pdf) of the project. The design is very minimilastic in order to help the user get the info they need pretty easily. While I have mostly stuck to the initial wireframe, there are some changes here and there that have been made.
 
 ## Summary Table
 
