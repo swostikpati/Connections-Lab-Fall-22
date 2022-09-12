@@ -14,13 +14,19 @@ This is the wireframe of the project. The design is very minimilastic in order t
 
 ## Summary Table
 
+![image](https://user-images.githubusercontent.com/67205637/189606471-be0fa567-30a3-4d29-85ad-6127d941578c.png)
+
 The interface begins with a summary table of the total expenses and the total income. It also gives the net total amount left with the user. The values are color-coded in order to make the process simpler for the user to extract the key details every time they open the app.
 
 ## Input Form
 
+![image](https://user-images.githubusercontent.com/67205637/189606630-c5cba38d-1075-44b5-8e6a-7dde358f9598.png)
+
 This is perhaps the most important part of the application. It was designed very systematically to allow the user to enter expenses and income under different categories. The box accepts floating numbers upto two decimal places. All the fields of the form are made required. The second step for the user is to either select credit or debit to indicate whether they spent money or earned money. Based on this selection a dropdown menu would appear allowing them to select a specific category. These dropdown menus differ based on the whether the amount is credit or debit. After finishing entering information, the user would then be able to submit the form
 
 ## Income/Expenditure Log
+
+![image](https://user-images.githubusercontent.com/67205637/189606837-456bee92-d542-43c7-808a-82f46ae5afdf.png)
 
 The next section of the application is a table which keep all the records of income and expenditure. Each record of the table keeps the amount spent/earned and the category. The user also has the option of deleting any of the records, which automatically updates the amount in the summary table.
 
