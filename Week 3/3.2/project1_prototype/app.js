@@ -19,7 +19,7 @@ form.addEventListener("submit", (e) => {
             let desc = data.results[0].alt_description
             console.log(desc);
             let imgLink = data.results[0].urls.small;
-            pic.innerHTML += (`<img src="${imgLink}" alt="${desc}">`);
+            pic.innerHTML = (`<img src="${imgLink}" alt="${desc}">`) + pic.innerHTML;
 
         })
         .catch(e => {
