@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+
+.input div {
+    margin: 5px;
+}
+
+header {
+    text-align: center;
+}
+
+.input_bts {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_bts button {
+    margin: 5px;
+}
+
+.input2 {
+    display: none;
+}

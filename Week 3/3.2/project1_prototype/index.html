@@ -10,12 +10,23 @@
 </head>
 
 <body>
-    <form id="form">
-        <label for="search_box">Enter name</label><br>
-        <input type="text" id="search_box" name="search-box" required>
-
-    </form>
-
+    <header>
+        <h1>Heading</h1>
+    </header>
+    <section class="input">
+        <div><button id="takepic_bt">Take Picture</button></div>
+        <div class="input_bts">
+            <button>Import</button>
+            <button id="unsplash">Find Online</button>
+        </div>
+    </section>
+    <section class="input2">
+        <form id="form">
+            <label for="search_box">Enter name</label><br>
+            <input type="text" id="search_box" name="search-box" required>
+            <button type="submit">Search</button>
+        </form>
+    </section>
     <section class="pictures"></section>
     <script src="app.js"></script>
 </body>
