@@ -8,6 +8,8 @@ const pic = document.querySelector(".pictures");
 const unsplash = document.querySelector("#unsplash");
 const init_input = document.querySelector(".input");
 const input2 = document.querySelector(".input2");
+const cover_p = document.querySelector(".cover_p img");
+const io_box = document.querySelector(".io-box");
 
 form.addEventListener("submit", (e) => {
     e.preventDefault(); //to stop form submission
@@ -29,5 +31,20 @@ form.addEventListener("submit", (e) => {
 
 unsplash.addEventListener("click", () => {
     init_input.style.display = "none";
-    input2.style.display = "block";
+    input2.style.display = "flex";
 })
+
+cover_p.addEventListener("click", () => {
+    cover_p.style.display = "none";
+    init_input.style.display = "flex";
+    io_box.style.width = "800px";
+    io_box.style.height = "550px";
+
+})
+
+
+// function setup() {
+//     const myCanvas = createCanvas(400, 400);
+//     myCanvas.parent("canvas-container");
+//     background(220, 40, 50);
+// }

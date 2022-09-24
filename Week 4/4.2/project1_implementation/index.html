@@ -10,24 +10,34 @@
 </head>
 
 <body>
-    <header>
-        <h1>Photo-Text</h1>
-    </header>
-    <section class="input">
-        <div><button id="takepic_bt">Take Picture</button></div>
-        <div class="input_bts">
-            <button>Import</button>
-            <button id="unsplash">Find Online</button>
+    <section class="io-box">
+        <div class="cover_p">
+            <img src="./assets/cover_photo.png" alt="Getting Started Image">
+        </div>
+        <div class="input">
+            <div><button id="takepic_bt">Take Picture</button></div>
+            <div class="input_bts">
+                <button>Import</button>
+                <button id="unsplash">Search</button>
+            </div>
+        </div>
+        <div class="input2">
+            <form id="form">
+                <!-- <label for="search_box">Enter name</label><br> -->
+                <div>
+                    <input placeholder="  Search for images" type="text" id="search_box" name="search-box" required>
+                </div>
+                <button type="submit">GO</button>
+            </form>
+
         </div>
     </section>
-    <section class="input2">
-        <form id="form">
-            <label for="search_box">Enter name</label><br>
-            <input type="text" id="search_box" name="search-box" required>
-            <button type="submit">Search</button>
-        </form>
-    </section>
-    <section class="pictures"></section>
+
+
+    <!-- make sure to add pixel clarity -->
+    <!-- take fonts from figma -->
+    <section class="pictures"> </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
     <script src="app.js"></script>
 </body>
 
