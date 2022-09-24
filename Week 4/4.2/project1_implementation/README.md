@@ -1,6 +1,6 @@
 # Project Documentation - Project 1 Prototype
 
-Working link: https://swostikpati.github.io/Connections-Lab-Fall-22/Week%203/3.2/project1_prototype/
+Working link: https://swostikpati.github.io/Connections-Lab-Fall-22/Week%203/4.2/project1_implementation/
 ## Wireframe
 
 This is the [initial wireframe](https://github.com/swostikpati/Connections-Lab-Fall-22/blob/main/Week%203/3.2/project1_prototype/project1prototype_wireframe.pdf) of the application. The wireframe hasn't yet been implemented fully (it will be by the end of project 1). Each of the pages in the pdf represent different frames that will occur due to button clicks. The wireframe of several other frames need to be added and there might be some design changes that get accumulated by the end of the project.
