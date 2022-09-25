@@ -10,6 +10,8 @@ const init_input = document.querySelector(".input");
 const input2 = document.querySelector(".input2");
 const cover_p = document.querySelector(".cover_p img");
 const io_box = document.querySelector(".io-box");
+const output1 = document.querySelector(".output1");
+const back_bt = document.querySelector("#back_bt");
 
 form.addEventListener("submit", (e) => {
     e.preventDefault(); //to stop form submission
@@ -22,10 +24,13 @@ form.addEventListener("submit", (e) => {
             console.log(desc);
             let imgLink = data.results[0].urls.small;
             pic.innerHTML = (`<img src="${imgLink}" alt="${desc}">`) + pic.innerHTML;
+            input2.style.display = "none";
+            output1.style.display = "flex";
 
         })
         .catch(e => {
             console.log("The error is", e);
+            alert("Sorry no results found...Please try again!");
         })
 })
 
@@ -41,7 +46,10 @@ cover_p.addEventListener("click", () => {
     io_box.style.height = "550px";
 
 })
-
+back_bt.addEventListener("click", () => {
+    output1.style.display = "none";
+    input2.style.display = "flex";
+})
 
 // function setup() {
 //     const myCanvas = createCanvas(400, 400);

@@ -125,3 +125,7 @@ body {
     background-color: black;
     color: white;
 }
+
+.output1 {
+    display: none;
+}
