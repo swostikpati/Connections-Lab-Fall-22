@@ -54,6 +54,10 @@ body {
     text-align: center;
 }
 
+.cover_p:hover {
+    cursor: pointer;
+}
+
 .cover_p img {
     height: 605px;
     width: 1105px;
@@ -128,4 +132,52 @@ body {
 
 .output1 {
     display: none;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    /* margin-top: 50px; */
+    background-color: #D9D9D9;
+    height: 550px;
+    width: 801px;
+    border-radius: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#back_bt {
+    margin-top: 10px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.output1 div {
+    background-color: white;
+    padding: 40px;
+    height: 350px;
+    width: 600px;
+    border-radius: 15px;
+}
+
+.pic_container {
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.pic_container img {
+    width: 150px;
+    height: 150px;
+    /* margin: 0; */
+    margin: 15px;
+    border: white 1px dashed;
 }
