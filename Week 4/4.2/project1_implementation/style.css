@@ -97,6 +97,7 @@ body {
 }
 
 
+
 .input2 {
     left: 0;
     margin: auto;
@@ -180,4 +181,11 @@ button:hover {
     /* margin: 0; */
     margin: 15px;
     border: white 1px dashed;
+}
+
+.output2 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
 }
