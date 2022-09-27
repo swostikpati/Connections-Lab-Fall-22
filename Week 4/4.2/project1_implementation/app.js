@@ -17,15 +17,16 @@ const canvas = document.querySelector("#canvas");
 const output2 = document.querySelector(".output2");
 const back_bt2 = document.querySelector("#back_bt2");
 
-
+let chr;
 form.addEventListener("submit", (e) => {
     e.preventDefault(); //to stop form submission
     searchName = txt.value;
+    chr = searchName;
 
     fetch(`https://api.unsplash.com/search/photos?query=${searchName}&client_id=mZPw-CKK4QAA8-T1FUwHhgWwDuHiaeOBD7d8ToskRXg`)
         .then(res => res.json())
         .then(data => {
-            let desc = data.results[0].alt_description;
+            let desc;
             console.log(desc);
             // let imgLink = data.results[0].urls.small;
             // pic.innerHTML = (`<img src="${imgLink}" alt="${desc}">`) + pic.innerHTML;
@@ -34,7 +35,10 @@ form.addEventListener("submit", (e) => {
             let imgLink;
             console.log(data.results[0].urls.small);
             for (let i = 0; i < 6; i++) {
-                imgLink = data.results[i].urls.raw;
+                imgLink = data.results[i].urls.small;
+                desc = data.results[i].alt_description;
+                // chr = desc;
+                // while(desc[i] != " ")
 
                 pic_container.innerHTML += (`<img src="${imgLink}" alt="${desc}" id="img_${i + 1}">`);
                 pic_container.style.background = "black";
@@ -111,7 +115,7 @@ function draw() {
         let w = width / photo.width;
         let h = height / photo.height;
 
-        let chr = "dog";
+        // chr = "apple";
         // console.log(chr.length);
         k = 0;
         for (let i = 0; i < photo.width; i++) {
