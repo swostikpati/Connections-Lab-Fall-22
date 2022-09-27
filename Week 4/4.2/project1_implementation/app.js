@@ -226,6 +226,7 @@ takepic_bt.addEventListener("click", () => {
     init_input.style.display = "none";
     output2.style.display = "flex";
     flag2 = true;
+    vf = true;
 
 })
 
