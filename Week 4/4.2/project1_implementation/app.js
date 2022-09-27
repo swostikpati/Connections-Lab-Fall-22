@@ -66,19 +66,23 @@ back_bt.addEventListener("click", () => {
 
 let flag = false;
 let img_n;
+let photo;
 pic_container.addEventListener("click", (e) => {
     let bt = e.target;
     console.log(bt.id);
     img_n = document.querySelector(`#${bt.id}`);
-    flag = true;
+
     console.log(img_n.currentSrc);
+    photo = loadImage(img_n.currentSrc);
+    flag = true;
     output1.style.display = "none";
     output2.style.display = "flex";
 
 
 
+
 })
-let photo;
+
 // function preload() {
 //     if (flag) {
 //         photo = loadImage(img_n.currentSrc);
@@ -89,18 +93,23 @@ function setup() {
     myCanvas.parent(canvas);
     background(220, 0, 0);
 
+
+
 }
 
 function draw() {
+    // strokeWeight(4);
+    // stroke(255, 204, 0);
+    // rect(0, 0, 400, 400);
     if (flag) {
-        console.log("all okay");
-        photo = loadImage(img_n.currentSrc);
-        image(photo, 0, 0, width, height);
-        /*debugger;
-        photo.resize(50, 50);
-        background(255, 255, 255);
+        // console.log("all okay");
+        // photo = loadImage(img_n.currentSrc);
         // image(photo, 0, 0, width, height);
-        let pixel, r, g, b, bright;
+
+        photo.resize(80, 80);
+        background(0);
+        // image(photo, 0, 0, width, height);
+        let r, g, b, bright;
         photo.loadPixels();
         let w = width / photo.width;
         let h = height / photo.height;
@@ -131,7 +140,7 @@ function draw() {
                 }
             }
 
-        }*/
+        }
     }
 }
 
