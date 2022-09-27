@@ -184,9 +184,28 @@ button:hover {
 }
 
 .output2 {
+    background-color: #D9D9D9;
+    height: 550px;
+    width: 801px;
     display: none;
     align-items: center;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 0px;
     /* border: white 2px dashed; */
+    flex-direction: column-reverse;
+    border-radius: 25px;
+}
+
+canvas {
+    border: black 2px dotted;
+
+}
+
+#back_bt2 {
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 0;
+    background-color: black;
+    color: white;
 }

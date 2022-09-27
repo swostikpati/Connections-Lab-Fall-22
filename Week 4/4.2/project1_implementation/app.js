@@ -15,6 +15,8 @@ const back_bt = document.querySelector("#back_bt");
 const pic_container = document.querySelector(".pic_container");
 const canvas = document.querySelector("#canvas");
 const output2 = document.querySelector(".output2");
+const back_bt2 = document.querySelector("#back_bt2");
+
 
 form.addEventListener("submit", (e) => {
     e.preventDefault(); //to stop form submission
@@ -28,15 +30,16 @@ form.addEventListener("submit", (e) => {
             // let imgLink = data.results[0].urls.small;
             // pic.innerHTML = (`<img src="${imgLink}" alt="${desc}">`) + pic.innerHTML;
             input2.style.display = "none";
-            output1.style.display = "flex";
+
             let imgLink;
             console.log(data.results[0].urls.small);
             for (let i = 0; i < 6; i++) {
-                imgLink = data.results[i].urls.small;
+                imgLink = data.results[i].urls.raw;
 
                 pic_container.innerHTML += (`<img src="${imgLink}" alt="${desc}" id="img_${i + 1}">`);
                 pic_container.style.background = "black";
             }
+            output1.style.display = "flex";
 
         })
         .catch(e => {
@@ -83,11 +86,7 @@ pic_container.addEventListener("click", (e) => {
 
 })
 
-// function preload() {
-//     if (flag) {
-//         photo = loadImage(img_n.currentSrc);
-//     }
-// }
+
 function setup() {
     const myCanvas = createCanvas(400, 400);
     myCanvas.parent(canvas);
@@ -98,9 +97,7 @@ function setup() {
 }
 
 function draw() {
-    // strokeWeight(4);
-    // stroke(255, 204, 0);
-    // rect(0, 0, 400, 400);
+
     if (flag) {
         // console.log("all okay");
         // photo = loadImage(img_n.currentSrc);
@@ -144,64 +141,7 @@ function draw() {
     }
 }
 
-// function createImage(URL) {
-//     let photo;
-//     // function preload() {
-
-
-//     // }
-//     console.log("yes1");
-//     photo = loadImage(URL);
-//     const myCanvas = createCanvas(400, 400);
-//     myCanvas.parent(canvas);
-//     background(220, 0, 0);
-
-//     function setup() {
-//         console.log("yes");
-//         photo = loadImage(URL);
-//         const myCanvas = createCanvas(400, 400);
-//         myCanvas.parent(canvas);
-
-//         photo.resize(50, 50);
-
-//         background(0);
-//         let pixel, r, g, b, bright;
-//         //image(pic,0,0, width, height );
-
-//         photo.loadPixels();
-//         let w = width / photo.width;
-//         let h = height / photo.height;
-
-//         let chr = "dog";
-//         // console.log(chr.length);
-//         k = 0;
-//         for (let i = 0; i < photo.width; i++) {
-//             for (let j = 0; j < photo.height; j++) {
-//                 pixelI = (j + i * photo.width) * 4;
-//                 r = photo.pixels[pixelI + 0];
-//                 g = photo.pixels[pixelI + 1];
-//                 b = photo.pixels[pixelI + 2];
-//                 bright = (r + g + b) / 3;
-
-//                 noStroke();
-//                 fill(bright);
-//                 //square(i*w, j*h, w);
-//                 textSize(w);
-//                 textAlign("CENTER", "CENTER");
-//                 //text(chr[k], i*w + w*0.5, j*h +h*0.5);
-//                 text(chr[k], j * h + h * 0.5, i * w + w * 0.5);
-//                 if (k <= chr.length - 2) {
-//                     k++;
-//                 }
-//                 else {
-//                     k = 0;
-//                 }
-
-
-//             }
-//         }
-
-//     }
-
-// }
-
+back_bt2.addEventListener("click", () => {
+    output2.style.display = "none";
+    output1.style.display = "flex";
+})
