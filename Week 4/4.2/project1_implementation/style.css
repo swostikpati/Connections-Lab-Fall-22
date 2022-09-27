@@ -209,3 +209,10 @@ canvas {
     background-color: black;
     color: white;
 }
+
+#canvas2 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}

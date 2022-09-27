@@ -16,6 +16,9 @@ const pic_container = document.querySelector(".pic_container");
 const canvas = document.querySelector("#canvas");
 const output2 = document.querySelector(".output2");
 const back_bt2 = document.querySelector("#back_bt2");
+const takepic_bt = document.querySelector("#takepic_bt");
+const canvas2 = document.querySelector("#canvas2");
+const back_bt3 = document.querySelector("#back_bt3")
 
 let chr;
 form.addEventListener("submit", (e) => {
@@ -89,12 +92,21 @@ pic_container.addEventListener("click", (e) => {
 
 
 })
-
-
+let flag2 = false;
+let vf = true;
+let video;
+let myCanvas;
+let myCanvas2;
 function setup() {
-    const myCanvas = createCanvas(400, 400);
+    myCanvas = createCanvas(500, 500);
     myCanvas.parent(canvas);
+    //myCanvas.parent(canvas2);
     background(220, 0, 0);
+    // myCanvas2 = createCanvas(400, 400);
+    // myCanvas2.parent(canvas2);
+    // background(0, 0, 220);
+    // video = createCapture(VIDEO);
+    // video.size(50, 50);
 
 
 
@@ -103,6 +115,7 @@ function setup() {
 function draw() {
 
     if (flag) {
+        // myCanvas.parent(canvas);
         // console.log("all okay");
         // photo = loadImage(img_n.currentSrc);
         // image(photo, 0, 0, width, height);
@@ -143,9 +156,81 @@ function draw() {
 
         }
     }
+    //addition
+    if (flag2) {
+        if (vf) {
+            video = createCapture(VIDEO);
+            video.size(80, 80);
+            video.hide();
+            vf = false;
+        }
+        background(0);
+        let r, g, b, bright;
+        //image(pic,0,0, width, height );
+
+        video.loadPixels();
+        let w = width / video.width;
+        let h = height / video.height;
+
+        let chr1 = "swostik";
+        //console.log(chr.length);
+        k = 0;
+        for (let i = 0; i < video.width; i++) {
+            for (let j = 0; j < video.height; j++) {
+                pixelI = (j + i * video.width) * 4;
+                r = video.pixels[pixelI + 0];
+                g = video.pixels[pixelI + 1];
+                b = video.pixels[pixelI + 2];
+                bright = (r + g + b) / 3;
+
+                noStroke();
+                fill(bright);
+                //square(i*w, j*h, w);
+                textSize(w);
+                textAlign("CENTER", "CENTER");
+                //text(chr[k], i*w + w*0.5, j*h +h*0.5);
+                text(chr1[k], j * h + h * 0.5, i * w + w * 0.5);
+                if (k <= chr1.length - 2) {
+                    k++;
+                }
+                else {
+                    k = 0;
+                }
+
+
+            }
+        }
+    }
+
+
+    //myCanvas2.background(220, 220, 0);
 }
+
+
 
 back_bt2.addEventListener("click", () => {
     output2.style.display = "none";
-    output1.style.display = "flex";
+    if (flag) {
+
+        output1.style.display = "flex";
+        flag = false;
+    }
+    if (flag2) {
+        init_input.style.display = "flex";
+        flag2 = false;
+        video.remove();
+    }
+})
+
+takepic_bt.addEventListener("click", () => {
+    init_input.style.display = "none";
+    output2.style.display = "flex";
+    flag2 = true;
+
+})
+
+back_bt3.addEventListener("click", () => {
+    input2.style.display = "none";
+    init_input.style.display = "flex";
+
 })
