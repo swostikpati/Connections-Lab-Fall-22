@@ -30,7 +30,7 @@
                 <button type="submit">GO</button>
 
             </form>
-            <button id="back_bt3">BACK</button>
+            <button id="back_bt3"><img src="./assets/home.png" alt="home button"></button>
         </div>
         <div class="output1">
             <div class="pic_container">
@@ -42,13 +42,18 @@
             <button id="back_bt">BACK</button>
         </div>
         <div class="output2" id="canvas">
-            <button id="back_bt2">BACK</button>
+            <div>
+                <button id="back_bt2">BACK</button>
+                <button id="save_canvas">SAVE</button>
+            </div>
         </div>
         <!-- <div class="input3"></div> -->
         <div class="input4">
             <form id="form_fin">
-                <label for="file-upload">Select Image</label>
-                <input id="file_upload" type="file" name="file-upload" accept="Image/*">
+                <!-- <label for="file-upload">Select Image</label> -->
+                <div class="file_container">
+                    <input id="file_upload" type="file" name="file-upload" accept="Image/*" placeholder="Select Image">
+                </div>
                 <button id="upload" type="submit">Upload</button>
             </form>
 

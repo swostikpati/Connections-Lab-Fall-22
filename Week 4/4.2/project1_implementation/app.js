@@ -23,6 +23,7 @@ const import_img = document.querySelector("#import_img");
 const input4 = document.querySelector(".input4");
 const form_fin = document.querySelector("#form_fin");
 const file_upload = document.querySelector("#file_upload");
+const save_bt = document.querySelector("#save_canvas");
 
 
 let chr;
@@ -103,7 +104,7 @@ let video;
 let myCanvas;
 let myCanvas2;
 function setup() {
-    myCanvas = createCanvas(500, 500);
+    myCanvas = createCanvas(450, 450);
     myCanvas.parent(canvas);
     //myCanvas.parent(canvas2);
     background(220, 0, 0);
@@ -160,6 +161,7 @@ function draw() {
             }
 
         }
+
     }
     //addition
     if (flag2) {
@@ -251,4 +253,8 @@ form_fin.addEventListener("submit", (e) => {
     let img_link2 = file_upload.value;
     input4.innerHTML += `<img src="${img_link2}" alt="">`;
 })
-
+let count = 1;
+save_bt.addEventListener("click", () => {
+    saveCanvas(`${count}`, 'jpg');
+    count++;
+})
