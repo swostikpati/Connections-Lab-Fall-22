@@ -177,7 +177,7 @@ function draw() {
         let w = width / video.width;
         let h = height / video.height;
 
-        let chr1 = "swostik";
+        let chr1 = "ME!";
         //console.log(chr.length);
         k = 0;
         for (let i = 0; i < video.width; i++) {
