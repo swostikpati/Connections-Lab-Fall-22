@@ -1,10 +1,12 @@
+// const { pbkdf2 } = require("crypto");
+
 window.addEventListener("load", () => {
     console.log("page loaded")
 })
 
 let searchName;
 const txt = document.querySelector("#search_box");
-const pic = document.querySelector(".pictures");
+// const pic = document.querySelector(".pictures");
 const unsplash = document.querySelector("#unsplash");
 const init_input = document.querySelector(".input");
 const input2 = document.querySelector(".input2");
@@ -24,9 +26,12 @@ const input4 = document.querySelector(".input4");
 const form_fin = document.querySelector("#form_fin");
 const file_upload = document.querySelector("#file_upload");
 const save_bt = document.querySelector("#save_canvas");
-
+const back_bt4 = document.querySelector("#back_bt4")
+// const arrow_bt = document.querySelector("#")
 
 let chr;
+// let flag = false;
+// let f2 = false;
 form.addEventListener("submit", (e) => {
     e.preventDefault(); //to stop form submission
     searchName = txt.value;
@@ -35,14 +40,22 @@ form.addEventListener("submit", (e) => {
     fetch(`https://api.unsplash.com/search/photos?query=${searchName}&client_id=mZPw-CKK4QAA8-T1FUwHhgWwDuHiaeOBD7d8ToskRXg`)
         .then(res => res.json())
         .then(data => {
+            // f2 = false;
+
             let desc;
-            console.log(desc);
+            // console.log(desc);
             // let imgLink = data.results[0].urls.small;
             // pic.innerHTML = (`<img src="${imgLink}" alt="${desc}">`) + pic.innerHTML;
-            input2.style.display = "none";
+
 
             let imgLink;
             console.log(data.results[0].urls.small);
+            // f2 = true;
+
+
+            input2.style.display = "none";
+
+            console.log("yes");
             for (let i = 0; i < 6; i++) {
                 imgLink = data.results[i].urls.small;
                 desc = data.results[i].alt_description;
@@ -58,12 +71,15 @@ form.addEventListener("submit", (e) => {
         .catch(e => {
             console.log("The error is", e);
             alert("Sorry no results found...Please try again!");
+            // f2 = false;
         })
 })
 
 unsplash.addEventListener("click", () => {
     init_input.style.display = "none";
     input2.style.display = "flex";
+
+
 })
 
 cover_p.addEventListener("click", () => {
@@ -102,7 +118,7 @@ let flag2 = false;
 let vf = true;
 let video;
 let myCanvas;
-let myCanvas2;
+// let myCanvas2;
 function setup() {
     myCanvas = createCanvas(450, 450);
     myCanvas.parent(canvas);
@@ -258,3 +274,14 @@ save_bt.addEventListener("click", () => {
     saveCanvas(`${count}`, 'jpg');
     count++;
 })
+
+back_bt4.addEventListener("click", () => {
+    input4.style.display = "none";
+    init_input.style.display = "flex";
+})
+//part 2
+
+// p1.addEventListener("mouseover", () => {
+//     p1.style.display = "none";
+//     p_1.style.display = "block";
+// })

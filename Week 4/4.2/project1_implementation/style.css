@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: black;
+    background-color: #080808;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .input {
@@ -13,7 +19,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     /* background-color: black; */
-    color: white;
+    color: whitesmoke;
 }
 
 .input div {
@@ -40,12 +46,12 @@ body {
 .io-box {
     height: 600px;
     width: 1100px;
-    background-color: black;
-    border: white 10px solid;
+    background-color: #080808;
+    border: whitesmoke 10px solid;
     /* padding: 0; */
     left: 0;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     border-radius: 40px;
     transition: width 0.5s, height 0.5s;
 }
@@ -68,7 +74,7 @@ body {
 }
 
 #takepic_bt {
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 200px;
     height: 200px;
     width: 200px;
@@ -115,7 +121,7 @@ body {
 
 
 .input2 form {
-    background-color: white;
+    background-color: whitesmoke;
     padding: 40px;
     height: 350px;
     width: 600px;
@@ -128,7 +134,7 @@ body {
     border-radius: 10px;
     border: 0;
     background-color: black;
-    color: white;
+    color: whitesmoke;
 }
 
 .output1 {
@@ -162,7 +168,7 @@ button:hover {
 }
 
 .output1 div {
-    background-color: white;
+    background-color: whitesmoke;
     padding: 40px;
     height: 350px;
     width: 600px;
@@ -180,7 +186,7 @@ button:hover {
     height: 150px;
     /* margin: 0; */
     margin: 15px;
-    border: white 1px dashed;
+    border: whitesmoke 1px dashed;
 }
 
 .output2 {
@@ -207,7 +213,7 @@ canvas {
     border-radius: 8px;
     border: 0;
     background-color: black;
-    color: white;
+    color: whitesmoke;
 }
 
 #canvas2 {
@@ -233,7 +239,7 @@ canvas {
 }
 
 #back_bt3 {
-    border-radius: 20px;
+    border-radius: 50px;
     margin-top: 20px;
 }
 
@@ -243,7 +249,7 @@ canvas {
     border-radius: 8px;
     border: 0;
     background-color: black;
-    color: white;
+    color: whitesmoke;
 }
 
 
@@ -267,7 +273,7 @@ canvas {
 
 #form_fin {
     /* flex-direction: column; */
-    background-color: white;
+    background-color: whitesmoke;
     padding: 40px;
     height: 350px;
     width: 600px;
@@ -285,5 +291,136 @@ canvas {
     border-radius: 10px;
     border: 0;
     background-color: black;
+    color: whitesmoke;
+}
+
+.home {
+    background-image: url("./assets/image.jpg");
+    height: 800px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.home h1 {
+
+    font-family: 'Questrial', sans-serif;
     color: white;
+    font-size: 100px;
+}
+
+.home {
+    align-items: center;
+    justify-content: center;
+}
+
+.home div {
+    margin-bottom: 150px;
+}
+
+.home img {
+    height: 120px;
+    width: 120px;
+}
+
+footer {
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px;
+    padding-top: 0;
+}
+
+footer h3 {
+    margin-bottom: 0;
+    padding-left: 70px;
+    font-family: 'Questrial',
+        sans-serif;
+    letter-spacing: 4px;
+}
+
+#heading2 {
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    letter-spacing: 5px;
+}
+
+#heading2 {
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    letter-spacing: 3px;
+}
+
+.pictures h1 {
+    margin-top: 70px;
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.pictures div {
+    width: 800px;
+    height: 800px;
+    margin: 50px;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* #p_1,
+#p_2,
+#p_3,
+#p_4 {
+    display: none;
+} */
+
+#p1 {
+    background: url("./assets/example_imgs/pic1.jpg") no-repeat;
+    background-size: cover;
+}
+
+#p1:hover {
+    background: url("./assets/example_imgs/pic_1.jpg") no-repeat;
+    background-size: cover;
+}
+
+#p2 {
+    background: url("./assets/example_imgs/pic2.jpg") no-repeat;
+    background-size: cover;
+}
+
+#p2:hover {
+    background: url("./assets/example_imgs/pic_2.jpg") no-repeat;
+    background-size: cover;
+}
+
+#p3 {
+    background: url("./assets/example_imgs/pic3.jpg") no-repeat;
+    background-size: cover;
+}
+
+#p3:hover {
+    background: url("./assets/example_imgs/pic_3.jpg") no-repeat;
+    background-size: cover;
+}
+
+#p4 {
+    background: url("./assets/example_imgs/pic4.jpg") no-repeat;
+    background-size: cover;
+}
+
+#p4:hover {
+    background: url("./assets/example_imgs/pic_4.jpg") no-repeat;
+    background-size: cover;
 }
