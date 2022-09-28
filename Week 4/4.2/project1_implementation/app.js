@@ -18,7 +18,12 @@ const output2 = document.querySelector(".output2");
 const back_bt2 = document.querySelector("#back_bt2");
 const takepic_bt = document.querySelector("#takepic_bt");
 const canvas2 = document.querySelector("#canvas2");
-const back_bt3 = document.querySelector("#back_bt3")
+const back_bt3 = document.querySelector("#back_bt3");
+const import_img = document.querySelector("#import_img");
+const input4 = document.querySelector(".input4");
+const form_fin = document.querySelector("#form_fin");
+const file_upload = document.querySelector("#file_upload");
+
 
 let chr;
 form.addEventListener("submit", (e) => {
@@ -235,3 +240,15 @@ back_bt3.addEventListener("click", () => {
     init_input.style.display = "flex";
 
 })
+
+import_img.addEventListener("click", () => {
+    init_input.style.display = "none";
+    input4.style.display = "flex";
+})
+
+form_fin.addEventListener("submit", (e) => {
+    e.preventDefault();
+    let img_link2 = file_upload.value;
+    input4.innerHTML += `<img src="${img_link2}" alt="">`;
+})
+

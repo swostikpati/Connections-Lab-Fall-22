@@ -216,3 +216,7 @@ canvas {
     justify-content: center;
 
 }
+
+.input4 {
+    display: none;
+}
