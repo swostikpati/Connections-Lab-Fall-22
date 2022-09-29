@@ -10,5 +10,8 @@
 ## Week 3 | Working with APIs (JSON Fetch)
 ### • [Project 1 - Proposal](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%203/3.2/project1_prototype)
 
-## Week 4 & 5 | p5.js Library
-### • [Project 1 - Text Portrait Web Application (Final)](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%204/4.2/project1_implementation)
+## Week 4 | p5.js Library
+### • [Project 1 - Project Prototype](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%204/4.2/project1_implementation)
+
+## Week 5 | Project 1 - Final
+### • [Project 1 - Text Portrait Web Application (Final)](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%205/5.2/project1_final)
