@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #080808;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.input {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: black; */
+    color: whitesmoke;
+}
+
+.input div {
+    margin: 5px;
+}
+
+
+.input_bts {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_bts button {
+    margin: 5px;
+}
+
+.input2 {
+    display: none;
+
+}
+
+.io-box {
+    height: 612px;
+    width: 1112px;
+    background-color: #080808;
+    border: whitesmoke 10px solid;
+    /* padding: 0; */
+    left: 0;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 40px;
+    transition: width 0.5s, height 0.5s;
+}
+
+.cover_p {
+    text-align: center;
+}
+
+.cover_p:hover {
+    cursor: pointer;
+}
+
+.cover_p img {
+    height: 605px;
+    width: 1105px;
+    /* padding-top: 20px; */
+    padding: 0;
+    border-radius: 20px;
+
+}
+
+#takepic_bt {
+    background-color: black;
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    border: 3px white solid;
+    color: whitesmoke;
+    font-family: 'Questrial',
+        sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+
+}
+
+.input_bts button {
+    background-color: black;
+    margin: 35px;
+    padding: 30px 60px;
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+    border-radius: 10px;
+    border: 3px white solid;
+    color: whitesmoke;
+    font-family: 'Questrial',
+        sans-serif;
+    font-size: 30px;
+
+}
+
+/* #D9D9D9 */
+#search_box {
+    background-color: black;
+    border-radius: 30px;
+    margin-top: 80px;
+    text-align: center;
+    color: whitesmoke;
+
+    padding: 20px 180px;
+    border: 3px white solid;
+    font-family: 'Questrial',
+        sans-serif;
+    font-size: 20px;
+
+
+}
+
+
+
+.input2 {
+    left: 0;
+    margin: auto;
+    text-align: center;
+    /* margin-top: 50px; */
+    background-color: black;
+    height: 550px;
+    width: 801px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+
+    /* display: flex; */
+}
+
+
+.input2 form {
+    background-color: black;
+    padding: 40px;
+    height: 350px;
+    width: 600px;
+    border-radius: 15px;
+}
+
+.input2 form button {
+    margin-top: 60px;
+    padding: 15px 60px;
+    border-radius: 10px;
+    border: 0;
+    background-color: black;
+    color: whitesmoke;
+    border: 3px white solid;
+    font-family: 'Questrial',
+        sans-serif;
+}
+
+.output1 {
+    display: none;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    /* margin-top: 50px; */
+    background-color: black;
+    height: 550px;
+    width: 801px;
+    border-radius: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px white solid;
+    font-family: 'Questrial',
+        sans-serif; */
+
+
+}
+
+#back_bt {
+    margin-top: 10px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: black;
+    color: white;
+    border: 3px white solid;
+    font-family: 'Questrial',
+        sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.output1 div {
+    background-color: whitesmoke;
+    padding: 40px;
+    height: 350px;
+    width: 600px;
+    border-radius: 15px;
+}
+
+.pic_container {
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.pic_container img {
+    width: 150px;
+    height: 150px;
+    /* margin: 0; */
+    margin: 15px;
+    margin-top: 10px;
+    border: whitesmoke 1px dashed;
+}
+
+.pic_container img:hover {
+    cursor: pointer;
+}
+
+.pic_container h2 {
+    color: whitesmoke;
+    font-family: 'Questrial',
+        sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
+.output2 {
+    background-color: black;
+    height: 550px;
+    width: 801px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    /* border: white 2px dashed; */
+    flex-direction: column-reverse;
+    border-radius: 25px;
+    /* border: 3px white solid;
+        font-family: 'Questrial',
+            sans-serif; */
+}
+
+canvas {
+    border: white 2px dotted;
+    /* border: 3px white solid;
+    font-family: 'Questrial',
+        sans-serif; */
+
+}
+
+#back_bt2 {
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 0;
+    background-color: black;
+    color: whitesmoke;
+    border: 3px white solid;
+    font-family: 'Questrial',
+        sans-serif;
+}
+
+#canvas2 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input4 {
+    display: none;
+}
+
+.input2 {
+    flex-direction: column;
+}
+
+#back_bt3 img {
+    height: 30px;
+    height: 30px;
+    padding: 5px;
+
+}
+
+#back_bt3 {
+    border-radius: 50px;
+    margin-top: 20px;
+    background-color: white;
+    border: 3px white solid;
+
+}
+
+#save_canvas {
+    margin-left: 20px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 0;
+    background-color: black;
+    color: whitesmoke;
+    border: 3px white solid;
+    font-family: 'Questrial',
+        sans-serif;
+}
+
+
+/* .output2 div {
+    flex-direction: row;
+} */
+
+.input4 {
+    left: 0;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    height: 550px;
+    width: 801px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px white solid;
+    font-family: 'Questrial',
+        sans-serif; */
+
+
+}
+
+#form_fin {
+    /* flex-direction: column; */
+    background-color: black;
+    padding: 40px;
+    height: 350px;
+    width: 600px;
+    border-radius: 15px;
+    border: 3px white solid;
+
+
+}
+
+.file_container {
+    margin-top: 120px;
+}
+
+.input4 form button {
+    margin-top: 60px;
+    padding: 15px 60px;
+    border-radius: 10px;
+    border: 0;
+    background-color: black;
+    color: whitesmoke;
+    border: 3px white solid;
+    font-family: 'Questrial',
+        sans-serif;
+}
+
+.home {
+    background-image: url("./assets/image.jpg");
+    height: 800px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.home h1 {
+
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    font-size: 100px;
+}
+
+.home {
+    align-items: center;
+    justify-content: center;
+}
+
+.home div {
+    margin-bottom: 150px;
+}
+
+.home img {
+    height: 120px;
+    width: 120px;
+}
+
+footer {
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px;
+    padding-top: 0;
+}
+
+footer h3 {
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding-left: 70px;
+    /* font-family: 'Questrial',
+        sans-serif;
+    letter-spacing: 4px; */
+
+}
+
+footer h3 a {
+    text-decoration: none;
+    font-family: 'Questrial',
+        sans-serif;
+    letter-spacing: 4px;
+    color: whitesmoke;
+}
+
+/* #heading2 {
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    letter-spacing: 5px;
+} */
+
+#heading2 {
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.pictures h1 {
+    margin-top: 70px;
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2.5px;
+}
+
+.pictures h2 {
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+}
+
+.pictures div {
+    width: 800px;
+    height: 800px;
+    margin: 50px;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* #p_1,
+#p_2,
+#p_3,
+#p_4 {
+    display: none;
+} */
+
+#p1 {
+    background: url("./assets/example_imgs/pic1.jpg") no-repeat;
+    background-size: cover;
+}
+
+#p1:hover {
+    background: url("./assets/example_imgs/pic_1.jpg") no-repeat;
+    background-size: cover;
+}
+
+#p2 {
+    background: url("./assets/example_imgs/pic2.jpg") no-repeat;
+    background-size: cover;
+}
+
+#p2:hover {
+    background: url("./assets/example_imgs/pic_2.jpg") no-repeat;
+    background-size: cover;
+}
+
+#p3 {
+    background: url("./assets/example_imgs/pic3.jpg") no-repeat;
+    background-size: cover;
+}
+
+#p3:hover {
+    background: url("./assets/example_imgs/pic_3.jpg") no-repeat;
+    background-size: cover;
+}
+
+#p4 {
+    background: url("./assets/example_imgs/pic4.jpg") no-repeat;
+    background-size: cover;
+}
+
+#p4:hover {
+    background: url("./assets/example_imgs/pic_4.jpg") no-repeat;
+    background-size: cover;
+}
+
+/* navbar */
+#logo {
+    /* width: 30px; */
+    cursor: pointer;
+    padding: 0;
+}
+
+#logo img {
+    width: 20%;
+    height: 20%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+    height: auto;
+}
+
+.nav_links li {
+    display: inline-block;
+    transition: scale 0.3s;
+}
+
+.nav_links li a {
+
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: azure;
+    text-decoration: none;
+
+    padding-left: 30px;
+    transition: color 0.7s;
+}
+
+
+.nav_links li:hover {
+    scale: 1.08;
+    cursor: default;
+}
+
+.nav_links li a:hover {
+    color: cyan;
+}
+
+footer {
+    border-top: 1px white dashed;
+}

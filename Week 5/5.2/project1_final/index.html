@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Image</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header" id="heading1">
+        <a href="index.html" id="logo"><img src="./assets/txtart_logo.png" alt="logo"></a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#heading2">Canvas.</a></li>
+                <li><a href="#heading3">Explore.</a></li>
+                <!-- <li><a href="#proj_res">RESEARCH</a></li> -->
+            </ul>
+        </nav>
+    </header>
+    <header class="home">
+        <div>
+            <h1>Create images with text.</h1>
+
+        </div>
+
+        <a href="#heading2"><img src="./assets/down_arrow.png" alt="down arrow" id="arrow"></a>
+    </header>
+    <!-- <section></section> -->
+    <h1 id="heading2">Where the Magic Happens!</h1>
+    <section class="io-box" id="section2">
+
+        <div class="cover_p">
+            <img src="./assets/cover_photo.png" alt="Getting Started Image">
+        </div>
+        <div class="input">
+            <div><button id="takepic_bt">SNAP PHOTO</button></div>
+            <div class="input_bts">
+                <button id="import_img">IMPORT</button>
+                <button id="unsplash">SEARCH</button>
+            </div>
+        </div>
+        <div class="input2">
+            <form id="form">
+                <!-- <label for="search_box">Enter name</label><br> -->
+                <div>
+                    <input placeholder="  Search for images" type="text" id="search_box" name="search-box" required>
+                </div>
+                <button type="submit">GO</button>
+
+            </form>
+            <button id="back_bt3"><img src="./assets/home.png" alt="home button"></button>
+        </div>
+        <div class="output1">
+            <div class="pic_container">
+                <h2>Please select an image:</h2>
+
+                <!-- <div class="pic_container">
+
+                </div> -->
+
+            </div>
+            <button id="back_bt">BACK</button>
+        </div>
+        <div class="output2" id="canvas">
+            <div>
+                <button id="back_bt2">BACK</button>
+                <button id="save_canvas">SAVE</button>
+            </div>
+        </div>
+        <!-- <div class="input3"></div> -->
+        <div class="input4">
+            <form id="form_fin">
+                <!-- <label for="file-upload">Select Image</label> -->
+                <div class="file_container">
+                    <input id="file_upload" type="file" name="file-upload" accept="Image/*" placeholder="Select Image">
+                </div>
+                <button id="upload" type="submit">Upload</button>
+                <button id="back_bt4">BACK</button>
+            </form>
+
+
+        </div>
+        <!-- <div id="canvas2">
+
+        </div> -->
+    </section>
+
+    <!-- file upload video ref: https://www.youtube.com/watch?v=gipOslesVtw -->
+    <!-- make sure to add pixel clarity -->
+    <!-- take fonts from figma -->
+    <section class="pictures" id="heading3">
+        <h1>Explore "Text-Artwork"</h1>
+        <h2>( Hover over the Images )</h2>
+        <div id="p1"></div>
+        <div id="p2"></div>
+        <div id="p3"></div>
+        <div id="p4"></div>
+    </section>
+    <footer>
+        <h3> <a href="#heading1">© Copyright Swostik Pati</a></h3>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
