@@ -10,29 +10,37 @@
 </head>
 
 <body>
+    <!-- Navbar -->
     <header class="header" id="heading1">
+        <!-- Logo -->
         <a href="index.html" id="logo"><img src="./assets/txtart_logo.png" alt="logo"></a>
         <nav>
             <ul class="nav_links">
+                <!-- Linking Navbar options to different sections of the website -->
                 <li><a href="#heading2">Canvas.</a></li>
                 <li><a href="#heading3">Explore.</a></li>
             </ul>
         </nav>
     </header>
+    <!-- Home Page -->
     <header class="home">
         <div>
             <h1>Create images with text.</h1>
 
         </div>
-
+        <!-- Linking arrow icon to scroll down into the website -->
         <a href="#heading2"><img src="./assets/down_arrow.png" alt="down arrow" id="arrow"></a>
     </header>
+    <!-- Heading of section 2 -->
     <h1 id="heading2">Where the Magic Happens!</h1>
+    <!-- Command Center - contains all the different options of the application -->
     <section class="io-box" id="section2">
-
+        <!-- Cover Photo -->
         <div class="cover_p">
             <img src="./assets/cover_photo.png" alt="Getting Started Image">
         </div>
+
+        <!-- First Input screen where the user selects which option they want to try out -->
         <div class="input">
             <div><button id="takepic_bt">SNAP PHOTO</button></div>
             <div class="input_bts">
@@ -40,6 +48,9 @@
                 <button id="unsplash">SEARCH</button>
             </div>
         </div>
+
+        <!-- Second input screen where the user searches for image on unsplash -->
+        <!-- This view is only visible when the user selects the search option -->
         <div class="input2">
             <form id="form">
                 <div>
@@ -50,15 +61,17 @@
             </form>
             <button id="back_bt3"><img src="./assets/home.png" alt="home button"></button>
         </div>
+
+        <!-- First output screen where the user is shown the images based on their search result -->
         <div class="output1">
             <div class="pic_container">
                 <h2>Please select an image:</h2>
-
-
-
             </div>
             <button id="back_bt">BACK</button>
         </div>
+
+        <!-- Second output screen where the rendered text-image is shown to the user in the p5 Canvas or their video feed is shown live -->
+        <!-- This view is both vissible at the end of the Unsplash image selection option or the Snap Photo option -->
         <div class="output2" id="canvas">
             <div>
                 <button id="back_bt2">BACK</button>
@@ -66,23 +79,21 @@
             </div>
         </div>
 
+        <!-- Fourth input screen where is user is required to upload a file from their local computer -->
         <div class="input4">
             <form id="form_fin">
                 <div class="file_container">
+                    <!-- The input field only accepts images and allows the user to change the file uploaded multiple times -->
                     <input id="file_upload" type="file" name="file-upload" accept="Image/*" placeholder="Select Image">
                 </div>
                 <button id="upload" type="submit">Upload</button>
                 <button id="back_bt4">BACK</button>
             </form>
-
-
         </div>
 
     </section>
 
-    <!-- file upload video ref: https://www.youtube.com/watch?v=gipOslesVtw -->
-    <!-- make sure to add pixel clarity -->
-    <!-- take fonts from figma -->
+    <!-- Explore Secion containing the preloaded images -->
     <section class="pictures" id="heading3">
         <h1>Explore "Text-Artwork"</h1>
         <h2>( Hover over the Images )</h2>
@@ -91,9 +102,13 @@
         <div id="p3"></div>
         <div id="p4"></div>
     </section>
+
+    <!-- Footer section -->
     <footer>
         <h3> <a href="#heading1">© Copyright Swostik Pati</a></h3>
     </footer>
+
+    <!-- Integrating p5 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
     <script src="app.js"></script>
 </body>

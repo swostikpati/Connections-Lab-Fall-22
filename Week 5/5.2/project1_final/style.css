@@ -1,5 +1,7 @@
+/* Importing font */
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
+/* Setting up basic options in the HTML page*/
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +15,7 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Styling the first input box */
 .input {
     display: none;
     align-items: center;
@@ -42,6 +45,7 @@ html {
 
 }
 
+/* Styling the initial cover page of the second section */
 .io-box {
     height: 612px;
     width: 1112px;
@@ -100,6 +104,7 @@ html {
 
 }
 
+/* Styling the search box for searching images */
 #search_box {
     background-color: black;
     border-radius: 30px;
@@ -116,8 +121,7 @@ html {
 
 }
 
-
-
+/* Styling the second input screen */
 .input2 {
     left: 0;
     margin: auto;
@@ -152,6 +156,7 @@ html {
         sans-serif;
 }
 
+/* Styling the first output screen where the images retrived based on user search are shown */
 .output1 {
     display: none;
     left: 0;
@@ -180,6 +185,7 @@ html {
         sans-serif;
 }
 
+/* Giving uniform cursor effect on button hover to all buttons */
 button:hover {
     cursor: pointer;
 }
@@ -218,6 +224,7 @@ button:hover {
     margin-bottom: 5px;
 }
 
+/* Styling second output screen which contains the p5 canvas*/
 .output2 {
     background-color: black;
     height: 550px;
@@ -231,6 +238,7 @@ button:hover {
 
 }
 
+/* Styling the p5 canvas */
 canvas {
     border: white 2px dotted;
 }
@@ -262,6 +270,7 @@ canvas {
     flex-direction: column;
 }
 
+/* Styling some buttons */
 #back_bt3 img {
     height: 30px;
     height: 30px;
@@ -289,7 +298,7 @@ canvas {
         sans-serif;
 }
 
-
+/* Styling the file import window */
 .input4 {
     left: 0;
     margin: auto;
@@ -329,6 +338,7 @@ canvas {
         sans-serif;
 }
 
+/* Styling the homescreen */
 .home {
     background-image: url("./assets/image.jpg");
     height: 800px;
@@ -358,6 +368,7 @@ canvas {
     width: 120px;
 }
 
+/* Styling the footer */
 footer {
     text-align: center;
     color: whitesmoke;
@@ -379,6 +390,7 @@ footer h3 a {
     color: whitesmoke;
 }
 
+/* Styling heading of the second section */
 #heading2 {
     font-family: 'Questrial', sans-serif;
     color: white;
@@ -389,6 +401,7 @@ footer h3 a {
     margin-bottom: 30px;
 }
 
+/* Styling the third section containing example pictures */
 .pictures h1 {
     margin-top: 70px;
     font-family: 'Questrial', sans-serif;
@@ -421,6 +434,7 @@ footer h3 a {
 
 }
 
+/* Loading the pictures as backgroung and adding a hover transition to each */
 #p1 {
     background: url("./assets/example_imgs/pic1.jpg") no-repeat;
     background-size: cover;
@@ -461,7 +475,7 @@ footer h3 a {
     background-size: cover;
 }
 
-/* navbar */
+/* Styling the Navbar */
 #logo {
     cursor: pointer;
     padding: 0;
