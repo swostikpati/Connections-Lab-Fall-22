@@ -4,7 +4,6 @@ window.addEventListener("load", () => {
 
 let searchName;
 const txt = document.querySelector("#search_box");
-// const pic = document.querySelector(".pictures");
 const unsplash = document.querySelector("#unsplash");
 const init_input = document.querySelector(".input");
 const input2 = document.querySelector(".input2");
@@ -25,11 +24,9 @@ const form_fin = document.querySelector("#form_fin");
 const file_upload = document.querySelector("#file_upload");
 const save_bt = document.querySelector("#save_canvas");
 const back_bt4 = document.querySelector("#back_bt4")
-// const arrow_bt = document.querySelector("#")
 
 let chr;
-// let flag = false;
-// let f2 = false;
+
 form.addEventListener("submit", (e) => {
     e.preventDefault(); //to stop form submission
     searchName = txt.value;
@@ -38,18 +35,10 @@ form.addEventListener("submit", (e) => {
     fetch(`https://api.unsplash.com/search/photos?query=${searchName}&client_id=mZPw-CKK4QAA8-T1FUwHhgWwDuHiaeOBD7d8ToskRXg`)
         .then(res => res.json())
         .then(data => {
-            // f2 = false;
 
             let desc;
-            // console.log(desc);
-            // let imgLink = data.results[0].urls.small;
-            // pic.innerHTML = (`<img src="${imgLink}" alt="${desc}">`) + pic.innerHTML;
-
-
             let imgLink;
             console.log(data.results[0].urls.small);
-            // f2 = true;
-
 
             input2.style.display = "none";
 
@@ -57,9 +46,6 @@ form.addEventListener("submit", (e) => {
             for (let i = 0; i < 6; i++) {
                 imgLink = data.results[i].urls.small;
                 desc = data.results[i].alt_description;
-                // chr = desc;
-                // while(desc[i] != " ")
-
                 pic_container.innerHTML += (`<img src="${imgLink}" alt="${desc}" id="img_${i + 1}">`);
                 pic_container.style.background = "black";
             }
@@ -69,7 +55,6 @@ form.addEventListener("submit", (e) => {
         .catch(e => {
             console.log("The error is", e);
             alert("Sorry no results found...Please try again!");
-            // f2 = false;
         })
 })
 
@@ -116,40 +101,23 @@ let flag2 = false;
 let vf = true;
 let video;
 let myCanvas;
-// let myCanvas2;
 function setup() {
     myCanvas = createCanvas(450, 450);
     myCanvas.parent(canvas);
-    //myCanvas.parent(canvas2);
     background(220, 0, 0);
-    // myCanvas2 = createCanvas(400, 400);
-    // myCanvas2.parent(canvas2);
-    // background(0, 0, 220);
-    // video = createCapture(VIDEO);
-    // video.size(50, 50);
-
-
-
 }
 
 function draw() {
 
     if (flag) {
-        // myCanvas.parent(canvas);
-        // console.log("all okay");
-        // photo = loadImage(img_n.currentSrc);
-        // image(photo, 0, 0, width, height);
 
         photo.resize(80, 80);
         background(0);
-        // image(photo, 0, 0, width, height);
         let r, g, b, bright;
         photo.loadPixels();
         let w = width / photo.width;
         let h = height / photo.height;
 
-        // chr = "apple";
-        // console.log(chr.length);
         k = 0;
         for (let i = 0; i < photo.width; i++) {
             for (let j = 0; j < photo.height; j++) {
@@ -161,10 +129,8 @@ function draw() {
 
                 noStroke();
                 fill(bright);
-                //square(i*w, j*h, w);
                 textSize(w);
                 textAlign("CENTER", "CENTER");
-                //text(chr[k], i*w + w*0.5, j*h +h*0.5);
                 text(chr[k], j * h + h * 0.5, i * w + w * 0.5);
                 if (k <= chr.length - 2) {
                     k++;
@@ -177,7 +143,6 @@ function draw() {
         }
 
     }
-    //addition
     if (flag2) {
         if (vf) {
             video = createCapture(VIDEO);
@@ -187,14 +152,12 @@ function draw() {
         }
         background(0);
         let r, g, b, bright;
-        //image(pic,0,0, width, height );
 
         video.loadPixels();
         let w = width / video.width;
         let h = height / video.height;
 
         let chr1 = "ME!";
-        //console.log(chr.length);
         k = 0;
         for (let i = 0; i < video.width; i++) {
             for (let j = 0; j < video.height; j++) {
@@ -206,10 +169,8 @@ function draw() {
 
                 noStroke();
                 fill(bright);
-                //square(i*w, j*h, w);
                 textSize(w);
                 textAlign("CENTER", "CENTER");
-                //text(chr[k], i*w + w*0.5, j*h +h*0.5);
                 text(chr1[k], j * h + h * 0.5, i * w + w * 0.5);
                 if (k <= chr1.length - 2) {
                     k++;
@@ -222,9 +183,6 @@ function draw() {
             }
         }
     }
-
-
-    //myCanvas2.background(220, 220, 0);
 }
 
 
@@ -277,9 +235,3 @@ back_bt4.addEventListener("click", () => {
     input4.style.display = "none";
     init_input.style.display = "flex";
 })
-//part 2
-
-// p1.addEventListener("mouseover", () => {
-//     p1.style.display = "none";
-//     p_1.style.display = "block";
-// })

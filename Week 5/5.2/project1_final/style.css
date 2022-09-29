@@ -18,7 +18,6 @@ html {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    /* background-color: black; */
     color: whitesmoke;
 }
 
@@ -48,7 +47,6 @@ html {
     width: 1112px;
     background-color: #080808;
     border: whitesmoke 10px solid;
-    /* padding: 0; */
     left: 0;
     margin: auto;
     margin-top: 20px;
@@ -67,7 +65,6 @@ html {
 .cover_p img {
     height: 605px;
     width: 1105px;
-    /* padding-top: 20px; */
     padding: 0;
     border-radius: 20px;
 
@@ -94,8 +91,6 @@ html {
     background-color: black;
     margin: 35px;
     padding: 30px 60px;
-    /* padding-top: 15px;
-    padding-bottom: 15px; */
     border-radius: 10px;
     border: 3px white solid;
     color: whitesmoke;
@@ -105,7 +100,6 @@ html {
 
 }
 
-/* #D9D9D9 */
 #search_box {
     background-color: black;
     border-radius: 30px;
@@ -128,7 +122,6 @@ html {
     left: 0;
     margin: auto;
     text-align: center;
-    /* margin-top: 50px; */
     background-color: black;
     height: 550px;
     width: 801px;
@@ -136,7 +129,6 @@ html {
     align-items: center;
     justify-content: center;
 
-    /* display: flex; */
 }
 
 
@@ -165,7 +157,6 @@ html {
     left: 0;
     margin: auto;
     text-align: center;
-    /* margin-top: 50px; */
     background-color: black;
     height: 550px;
     width: 801px;
@@ -173,9 +164,6 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* border: 3px white solid;
-    font-family: 'Questrial',
-        sans-serif; */
 
 
 }
@@ -213,7 +201,6 @@ button:hover {
 .pic_container img {
     width: 150px;
     height: 150px;
-    /* margin: 0; */
     margin: 15px;
     margin-top: 10px;
     border: whitesmoke 1px dashed;
@@ -239,20 +226,13 @@ button:hover {
     align-items: center;
     justify-content: center;
     margin-top: 0px;
-    /* border: white 2px dashed; */
     flex-direction: column-reverse;
     border-radius: 25px;
-    /* border: 3px white solid;
-        font-family: 'Questrial',
-            sans-serif; */
+
 }
 
 canvas {
     border: white 2px dotted;
-    /* border: 3px white solid;
-    font-family: 'Questrial',
-        sans-serif; */
-
 }
 
 #back_bt2 {
@@ -310,10 +290,6 @@ canvas {
 }
 
 
-/* .output2 div {
-    flex-direction: row;
-} */
-
 .input4 {
     left: 0;
     margin: auto;
@@ -324,15 +300,9 @@ canvas {
     border-radius: 25px;
     align-items: center;
     justify-content: center;
-    /* border: 3px white solid;
-    font-family: 'Questrial',
-        sans-serif; */
-
-
 }
 
 #form_fin {
-    /* flex-direction: column; */
     background-color: black;
     padding: 40px;
     height: 350px;
@@ -399,10 +369,6 @@ footer h3 {
     margin-top: 15px;
     margin-bottom: 0;
     padding-left: 70px;
-    /* font-family: 'Questrial',
-        sans-serif;
-    letter-spacing: 4px; */
-
 }
 
 footer h3 a {
@@ -412,15 +378,6 @@ footer h3 a {
     letter-spacing: 4px;
     color: whitesmoke;
 }
-
-/* #heading2 {
-    font-family: 'Questrial', sans-serif;
-    color: white;
-    font-size: 40px;
-    text-align: center;
-    margin-top: 80px;
-    letter-spacing: 5px;
-} */
 
 #heading2 {
     font-family: 'Questrial', sans-serif;
@@ -464,13 +421,6 @@ footer h3 a {
 
 }
 
-/* #p_1,
-#p_2,
-#p_3,
-#p_4 {
-    display: none;
-} */
-
 #p1 {
     background: url("./assets/example_imgs/pic1.jpg") no-repeat;
     background-size: cover;
@@ -513,7 +463,6 @@ footer h3 a {
 
 /* navbar */
 #logo {
-    /* width: 30px; */
     cursor: pointer;
     padding: 0;
 }
