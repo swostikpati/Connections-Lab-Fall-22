@@ -10,6 +10,16 @@
 </head>
 
 <body>
+    <header class="header" id="heading1">
+        <a href="index.html" id="logo"><img src="./assets/txtart_logo.png" alt="logo"></a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#heading2">Canvas.</a></li>
+                <li><a href="#heading3">Explore.</a></li>
+                <!-- <li><a href="#proj_res">RESEARCH</a></li> -->
+            </ul>
+        </nav>
+    </header>
     <header class="home">
         <div>
             <h1>Create images with text.</h1>
@@ -26,10 +36,10 @@
             <img src="./assets/cover_photo.png" alt="Getting Started Image">
         </div>
         <div class="input">
-            <div><button id="takepic_bt">Take Picture</button></div>
+            <div><button id="takepic_bt">SNAP PHOTO</button></div>
             <div class="input_bts">
-                <button id="import_img">Import</button>
-                <button id="unsplash">Search</button>
+                <button id="import_img">IMPORT</button>
+                <button id="unsplash">SEARCH</button>
             </div>
         </div>
         <div class="input2">
@@ -45,6 +55,8 @@
         </div>
         <div class="output1">
             <div class="pic_container">
+                <h2>Please select an image:</h2>
+
                 <!-- <div class="pic_container">
 
                 </div> -->
@@ -79,15 +91,16 @@
     <!-- file upload video ref: https://www.youtube.com/watch?v=gipOslesVtw -->
     <!-- make sure to add pixel clarity -->
     <!-- take fonts from figma -->
-    <section class="pictures">
-        <h1>Explore </h1>
+    <section class="pictures" id="heading3">
+        <h1>Explore "Text-Artwork"</h1>
+        <h2>( Hover over the Images )</h2>
         <div id="p1"></div>
         <div id="p2"></div>
         <div id="p3"></div>
         <div id="p4"></div>
     </section>
     <footer>
-        <h3> © Copyright Swostik Pati</h3>
+        <h3> <a href="#heading1">© Copyright Swostik Pati</a></h3>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
     <script src="app.js"></script>

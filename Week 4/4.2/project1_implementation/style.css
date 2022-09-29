@@ -44,8 +44,8 @@ html {
 }
 
 .io-box {
-    height: 600px;
-    width: 1100px;
+    height: 612px;
+    width: 1112px;
     background-color: #080808;
     border: whitesmoke 10px solid;
     /* padding: 0; */
@@ -74,31 +74,51 @@ html {
 }
 
 #takepic_bt {
-    background-color: whitesmoke;
+    background-color: black;
     border-radius: 200px;
     height: 200px;
     width: 200px;
     padding: 10px;
     margin-top: 60px;
     margin-bottom: 50px;
+    border: 3px white solid;
+    color: whitesmoke;
+    font-family: 'Questrial',
+        sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+
 }
 
 .input_bts button {
-    /* background-color: white; */
+    background-color: black;
     margin: 35px;
     padding: 30px 60px;
     /* padding-top: 15px;
     padding-bottom: 15px; */
     border-radius: 10px;
+    border: 3px white solid;
+    color: whitesmoke;
+    font-family: 'Questrial',
+        sans-serif;
+    font-size: 30px;
+
 }
 
+/* #D9D9D9 */
 #search_box {
-    background-color: #D9D9D9;
+    background-color: black;
     border-radius: 30px;
     margin-top: 80px;
     text-align: center;
+    color: whitesmoke;
 
     padding: 20px 180px;
+    border: 3px white solid;
+    font-family: 'Questrial',
+        sans-serif;
+    font-size: 20px;
+
 
 }
 
@@ -109,7 +129,7 @@ html {
     margin: auto;
     text-align: center;
     /* margin-top: 50px; */
-    background-color: #D9D9D9;
+    background-color: black;
     height: 550px;
     width: 801px;
     border-radius: 25px;
@@ -121,7 +141,7 @@ html {
 
 
 .input2 form {
-    background-color: whitesmoke;
+    background-color: black;
     padding: 40px;
     height: 350px;
     width: 600px;
@@ -135,6 +155,9 @@ html {
     border: 0;
     background-color: black;
     color: whitesmoke;
+    border: 3px white solid;
+    font-family: 'Questrial',
+        sans-serif;
 }
 
 .output1 {
@@ -143,13 +166,16 @@ html {
     margin: auto;
     text-align: center;
     /* margin-top: 50px; */
-    background-color: #D9D9D9;
+    background-color: black;
     height: 550px;
     width: 801px;
     border-radius: 25px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* border: 3px white solid;
+    font-family: 'Questrial',
+        sans-serif; */
 
 
 }
@@ -161,6 +187,9 @@ html {
     border: 0;
     background-color: black;
     color: white;
+    border: 3px white solid;
+    font-family: 'Questrial',
+        sans-serif;
 }
 
 button:hover {
@@ -186,11 +215,24 @@ button:hover {
     height: 150px;
     /* margin: 0; */
     margin: 15px;
+    margin-top: 10px;
     border: whitesmoke 1px dashed;
 }
 
+.pic_container img:hover {
+    cursor: pointer;
+}
+
+.pic_container h2 {
+    color: whitesmoke;
+    font-family: 'Questrial',
+        sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
 .output2 {
-    background-color: #D9D9D9;
+    background-color: black;
     height: 550px;
     width: 801px;
     display: none;
@@ -200,10 +242,16 @@ button:hover {
     /* border: white 2px dashed; */
     flex-direction: column-reverse;
     border-radius: 25px;
+    /* border: 3px white solid;
+        font-family: 'Questrial',
+            sans-serif; */
 }
 
 canvas {
-    border: black 2px dotted;
+    border: white 2px dotted;
+    /* border: 3px white solid;
+    font-family: 'Questrial',
+        sans-serif; */
 
 }
 
@@ -214,6 +262,9 @@ canvas {
     border: 0;
     background-color: black;
     color: whitesmoke;
+    border: 3px white solid;
+    font-family: 'Questrial',
+        sans-serif;
 }
 
 #canvas2 {
@@ -232,8 +283,8 @@ canvas {
 }
 
 #back_bt3 img {
-    height: 20px;
-    height: 20px;
+    height: 30px;
+    height: 30px;
     padding: 5px;
 
 }
@@ -241,6 +292,9 @@ canvas {
 #back_bt3 {
     border-radius: 50px;
     margin-top: 20px;
+    background-color: white;
+    border: 3px white solid;
+
 }
 
 #save_canvas {
@@ -250,6 +304,9 @@ canvas {
     border: 0;
     background-color: black;
     color: whitesmoke;
+    border: 3px white solid;
+    font-family: 'Questrial',
+        sans-serif;
 }
 
 
@@ -261,23 +318,28 @@ canvas {
     left: 0;
     margin: auto;
     text-align: center;
-    background-color: #D9D9D9;
+    background-color: black;
     height: 550px;
     width: 801px;
     border-radius: 25px;
     align-items: center;
     justify-content: center;
+    /* border: 3px white solid;
+    font-family: 'Questrial',
+        sans-serif; */
 
 
 }
 
 #form_fin {
     /* flex-direction: column; */
-    background-color: whitesmoke;
+    background-color: black;
     padding: 40px;
     height: 350px;
     width: 600px;
     border-radius: 15px;
+    border: 3px white solid;
+
 
 }
 
@@ -292,6 +354,9 @@ canvas {
     border: 0;
     background-color: black;
     color: whitesmoke;
+    border: 3px white solid;
+    font-family: 'Questrial',
+        sans-serif;
 }
 
 .home {
@@ -331,21 +396,31 @@ footer {
 }
 
 footer h3 {
+    margin-top: 15px;
     margin-bottom: 0;
     padding-left: 70px;
+    /* font-family: 'Questrial',
+        sans-serif;
+    letter-spacing: 4px; */
+
+}
+
+footer h3 a {
+    text-decoration: none;
     font-family: 'Questrial',
         sans-serif;
     letter-spacing: 4px;
+    color: whitesmoke;
 }
 
-#heading2 {
+/* #heading2 {
     font-family: 'Questrial', sans-serif;
     color: white;
     font-size: 40px;
     text-align: center;
     margin-top: 80px;
     letter-spacing: 5px;
-}
+} */
 
 #heading2 {
     font-family: 'Questrial', sans-serif;
@@ -354,6 +429,7 @@ footer h3 {
     text-align: center;
     margin-top: 80px;
     letter-spacing: 3px;
+    margin-bottom: 30px;
 }
 
 .pictures h1 {
@@ -362,6 +438,16 @@ footer h3 {
     color: white;
     font-size: 40px;
     text-align: center;
+    letter-spacing: 2.5px;
+}
+
+.pictures h2 {
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
 }
 
 .pictures div {
@@ -423,4 +509,55 @@ footer h3 {
 #p4:hover {
     background: url("./assets/example_imgs/pic_4.jpg") no-repeat;
     background-size: cover;
+}
+
+/* navbar */
+#logo {
+    /* width: 30px; */
+    cursor: pointer;
+    padding: 0;
+}
+
+#logo img {
+    width: 20%;
+    height: 20%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+    height: auto;
+}
+
+.nav_links li {
+    display: inline-block;
+    transition: scale 0.3s;
+}
+
+.nav_links li a {
+
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: azure;
+    text-decoration: none;
+
+    padding-left: 30px;
+    transition: color 0.7s;
+}
+
+
+.nav_links li:hover {
+    scale: 1.08;
+    cursor: default;
+}
+
+.nav_links li a:hover {
+    color: cyan;
+}
+
+footer {
+    border-top: 1px white dashed;
 }

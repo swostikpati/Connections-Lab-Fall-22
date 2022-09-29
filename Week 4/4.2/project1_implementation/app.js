@@ -1,5 +1,3 @@
-// const { pbkdf2 } = require("crypto");
-
 window.addEventListener("load", () => {
     console.log("page loaded")
 })
