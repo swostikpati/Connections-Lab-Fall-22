@@ -11,4 +11,4 @@
 ### • [Project 1 - Proposal](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%203/3.2/project1_prototype)
 
 ## Week 4 & 5 | p5.js Library
-### • [Project 1 - Final](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%204/4.2/project1_implementation)
+### • [Project 1 - Text Portrait Web Application (Final)](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%204/4.2/project1_implementation)
