@@ -3,6 +3,7 @@
 Working link: https://swostikpati.github.io/Connections-Lab-Fall-22/Week%205/5.2/project1_final/
 
 ## Project Description
+### Overview
 The aim of my project was to make a text visualizer using p5.js that could draw grayscale images using text and give users the option of experimenting around with different images. The video below showcases the working of the entire website:
 
 https://user-images.githubusercontent.com/67205637/193339401-54cbe37c-0d31-420a-affa-b1c86bd5a334.mp4
