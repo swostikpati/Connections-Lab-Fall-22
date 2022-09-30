@@ -31,7 +31,7 @@ All the images are stored in the results array inside the JSON object. Each inde
 
 ### Wireframing and Prototyping
 
-This was the initial wireframe(<insert wireframe>). Through the process of website creation, a lot of minor changes and some major UI overhauls accumulated to create something much different from the initial plan to cater to better user experience.
+This was the [initial wireframe](https://github.com/swostikpati/Connections-Lab-Fall-22/blob/main/Week%205/5.2/project1_final/project1prototype_wireframe.pdf). Through the process of website creation, a lot of minor changes and some major UI overhauls accumulated to create something much different from the initial plan to cater to better user experience.
  
 The first prototype I created implemented sending requests to the unsplash API and showing the images to the user to choose from. It was a basic flow of screens where the user was given an option to search an image and then click on one of the 6 displayed images. The final step was to create the “text-portrait” of the chosen image. The flow was literally a copy of the initial wireframe (including the colors). I focussed more on making the flow user-friendly so as to make it very easy to navigate with large and apparant buttons and search bar. I did realize that I needed to revamp the UI a lot to make the website look professional and presentable. Also through the feedback I received through play-testing, I realized there could be some more information added in the flow to make it even more easy for the user to navigate.
 
