@@ -70,7 +70,7 @@ The website starts with a Navbar having a [logo](https://github.com/swostikpati/
 
 • Adding the option for directly sharing the “text-portraits” to social media feed of applicatons like Instagram, Facebook, and Snapchat.
 
-• Making the website more reponsive to cater for mobile users. Going forward also adding the additional feature of accessing not just the selfie camera but also the back camera of the phones
+• Making the website more reponsive to cater for mobile users. Going forward also adding the additional feature of accessing not just the selfie camera but also the back camera of the phones so as to give users even more flexibility and room for exploration.
  
 ## References 
 
