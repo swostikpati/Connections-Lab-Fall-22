@@ -25,10 +25,10 @@ Traversing through very high quality images takes a lot of computational power, 
 
 ### API
 
-The project uses the api from the Unsplash Website. It provides access to thousands of high-resolution royalty-free stock images. My application requires access to a lot of images to cater for diverse searches. To access the API I first created a developer account on Unsplash and created an application. I was then assigned an Access key and a Secret Key. After going through some documentation, I was able to understand the API endpoints where I could make requests to. Using Postman, I learned the various things present in the JSON object.
+The project uses the api from the [Unsplash Website](https://unsplash.com/). It provides access to thousands of high-resolution royalty-free stock images. My application requires access to a lot of images to cater for diverse searches. To access the API I first created a [developer account](https://unsplash.com/developers) on Unsplash and created an application. I was then assigned an Access key and a Secret Key. After going through some documentation, I was able to understand the API endpoints where I could make requests to. Using Postman, I learned the various things present in the JSON object.
 
-<Image>
-
+![image](https://user-images.githubusercontent.com/67205637/190904445-59e73f52-0683-472e-99e1-9302c0d4aace.png)
+ 
 All the images are stored in the results array inside the JSON object. Each index of the array consists of links to the image in different sizes and several lines of description about the image. The API call consists of a query string consisting of the search term and an id which is the unique access key provided by unsplash on the developer account.
 
 ### Wireframing and Prototyping
@@ -37,10 +37,11 @@ This was the initial wireframe(<insert wireframe>). Through the process of websi
  
 The first prototype I created implemented sending requests to the unsplash API and showing the images to the user to choose from. It was a basic flow of screens where the user was given an option to search an image and then click on one of the 6 displayed images. The final step was to create the “text-portrait” of the chosen image. The flow was literally a copy of the initial wireframe (including the colors). I focussed more on making the flow user-friendly so as to make it very easy to navigate with large and apparant buttons and search bar. I did realize that I needed to revamp the UI a lot to make the website look professional and presentable. Also through the feedback I received through play-testing, I realized there could be some more information added in the flow to make it even more easy for the user to navigate.
 
-### Technical Design
+### Creative adn Technical Design
 
-### Creative Design
+The website starts with a Navbar having a logo (designed by me) which says ART.txt so as to convey the creation of photo with text. The home page of the website was designed to show boldness especially to showcase. The website was made completely in dark mode. Each of the options in the Navbar have an hover effect and navigate to different parts of the website. The center of the website also has two arrows which scroll to the second section of the website on clicking. The second section of the website contains the major part of the application. I had thought of creating this as a  Magic Canvas, having all the options and user-flows in the website to allow the user to  experiement through different functions all in one place. This section initially has a poster which explains the user what they can expect from the website.
 
+ 
 ## Key Challenges and Solutions
 
 • Sending requests to the API based on search terms by the user was a difficult task. I knew how to access the API endpoint, but somehow I had to perform both the operation of retrieving the search term submitted by the user using the input form and then sending a GET request using the search term in a query string. At the same instant there were multiple other processes that were happening simultaneously, like error handling and changing screens. It was really difficult to pull all of them togethe in one go. But with a little bit of planning, a lot of use of the debugger tool, placing view transition code at the correct places in order to give the images time to load and also allowing for error handling, and calling the fetch request inside the “form-submit”event listener allowed me to perform everything simultaneously.
@@ -69,7 +70,8 @@ The first prototype I created implemented sending requests to the unsplash API a
 
 • Adding the option for directly sharing the “text-portraits” to social media feed of applicatons like Instagram, Facebook, and Snapchat.
 
-
+• Making the website more reponsive to cater for mobile users. Going forward also adding the additional feature of accessing not just the selfie camera but also the back camera of the phones
+ 
 ## References 
 
 • [p5.js Documentation](https://p5js.org/reference/)
