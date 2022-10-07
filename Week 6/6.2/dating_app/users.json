@@ -1,0 +1,114 @@
+{
+    "name": "Dating App Users API",
+    "desc": "List of pre-existing users on a dating app",
+    "male": [
+        {
+            "name": "Noah",
+            "age": "23",
+            "ig": "@noah.tech",
+            "photo": "",
+            "hobbies": [
+                "coding",
+                "technology",
+                "music"
+            ]
+        },
+        {
+            "name": "Aryan",
+            "age": "24",
+            "ig": "@retroninga",
+            "photo": "",
+            "hobbies": [
+                "watching shows",
+                "partying",
+                "playing badminton"
+            ]
+        },
+        {
+            "name": "Santiago",
+            "age": "22",
+            "ig": "@santiago",
+            "photo": "",
+            "hobbies": [
+                "reading novels",
+                "drinking coffee"
+            ]
+        },
+        {
+            "name": "Leonardo",
+            "age": "21",
+            "ig": "@diCaprio",
+            "photo": "",
+            "hobbies": [
+                "travelling",
+                "playing guitar"
+            ]
+        },
+        {
+            "name": "Harry",
+            "age": "25",
+            "ig": "@not_harry",
+            "photo": "",
+            "hobbies": [
+                "sketching",
+                "cycling",
+                "procrastinating"
+            ]
+        }
+    ],
+    "female": [
+        {
+            "name": "Luna",
+            "age": "21",
+            "ig": "@luna.pvt",
+            "photo": "",
+            "hobbies": [
+                "travelling",
+                "playing guitar"
+            ]
+        },
+        {
+            "name": "Amy",
+            "age": "24",
+            "ig": "@__.xamyx.__",
+            "photo": "",
+            "hobbies": [
+                "coding",
+                "technology",
+                "music"
+            ]
+        },
+        {
+            "name": "Amelia",
+            "age": "20",
+            "ig": "@amelia",
+            "photo": "",
+            "hobbies": [
+                "sketching",
+                "cycling",
+                "procrastinating"
+            ]
+        },
+        {
+            "name": "Elena",
+            "age": "23",
+            "ig": "@ellie",
+            "photo": "",
+            "hobbies": [
+                "reading novels",
+                "drinking coffee"
+            ]
+        },
+        {
+            "name": "Olivia",
+            "age": "22",
+            "ig": "@olivia_gomez",
+            "photo": "",
+            "hobbies": [
+                "watching shows",
+                "partying",
+                "playing badminton"
+            ]
+        }
+    ]
+}
