@@ -16,10 +16,10 @@ app.get("/match", (req, res) => {
     let rand_index = req.query.no;
     let g;
     if (k == "1") {
-        g = "male"
+        g = "female"; //to assign matches of opposite gender
     }
     else if (k == "2") {
-        g = "female"
+        g = "male";
     }
     if (userJSON[g]) {
         res.json(userJSON[g][rand_index]);
