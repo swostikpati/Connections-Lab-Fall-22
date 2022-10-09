@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Questrial&display=swap');
+
+/* Setting up basic options in the HTML page*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+#homepage {
+    background-image: url("./assets/cover_photo.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    /* height: 740px;
+    width: 1500px; */
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding-top: 20px;
+    /* display: flex; */
+}
+
+
+#homepage p {
+    /* margin-top: 600px; */
+    padding-top: 520px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: 'Comforter Brush', cursive;
+    color: whitesmoke;
+    letter-spacing: 3px;
+
+}
+
+#homepage a img {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+
+}
+
+.user-setup {
+    text-align: center;
+}
+
+#user-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.match-page {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* #section3 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+} */
+
+#section2,
+#section3 {
+    background-image: url("./assets/page2.png");
+
+    background-size: auto;
+    background-position: center;
+    height: auto;
+    width: auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    /* padding-top: 20px; */
+
+}

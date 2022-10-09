@@ -5,14 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dating App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>working</h1>
 
-    <section class="user-setup">
+    <section id="homepage">
+        <p><em>Meet Your Soulmate</em></p>
+        <a href="#section2"><img src="./assets/down_arrow.png" alt="down arrow" id="arrow"></a>
+    </section>
+
+    <section class="user-setup" id="section2">
+        <p>T-5 minutes before you find your match!</p>
         <form id="user-form">
             <input type="text" placeholder="Name" id="user-name" required>
             <input type="number" placeholder="Age" id="user-age" min="18" required>
@@ -28,7 +33,9 @@
             <button type="submit">Match Me</button>
         </form>
     </section>
-    <section class="match-page">
+    <section id="section3">
+        <div class="match-page"><button id="back_bt">Unmatch</button></div>
+        <!-- <button id="back_bt">Unmatch</button> -->
 
     </section>
 
