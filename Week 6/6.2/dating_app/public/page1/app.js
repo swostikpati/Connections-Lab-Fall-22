@@ -33,7 +33,7 @@ window.addEventListener("load", () => {
             .then(res => res.json())
             .then(data => {
                 console.log(data);
-                match_page.innerHTML = `<p>Meet ${data.name}, ${data.age}</p> <p>Loves ${data.hobbies[0]}, ${data.hobbies[1]}, ${data.hobbies[2]}</p> <p>Hit them up on:</p> <p>${data.ig}</p>` + match_page.innerHTML;
+                match_page.innerHTML = `<img src="${data.photo}" class="profile-pic" alt="profile picture"> <p>Meet ${data.name}, ${data.age}</p> <p>Loves ${data.hobbies[0]}, ${data.hobbies[1]}, ${data.hobbies[2]}</p> <p>Hit them up on:</p> <p><em>${data.ig}</em></p>` + match_page.innerHTML;
                 match_page.style.display = "flex";
                 back_bt.addEventListener("click", () => {
                     match_page.innerHTML = `<button id="back_bt">Unmatch</button>`;

@@ -13,31 +13,34 @@
 
     <section id="homepage">
         <p><em>Meet Your Soulmate</em></p>
-        <a href="#section2"><img src="./assets/down_arrow.png" alt="down arrow" id="arrow"></a>
+        <a href="#main-section"><img src="./assets/down_arrow.png" alt="down arrow" id="arrow"></a>
     </section>
 
-    <section class="user-setup" id="section2">
-        <p>T-5 minutes before you find your match!</p>
-        <form id="user-form">
-            <input type="text" placeholder="Name" id="user-name" required>
-            <input type="number" placeholder="Age" id="user-age" min="18" required>
-            <div>
-                <input type="radio" id="male" name="gender" value="Male" required>
-                <label for="male" id="male-label">Male</label>
+    <section id="main-section">
+        <section class="user-setup" id="section2">
+            <p id="heading-sec2">TELL US ABOUT YOURSELF</p>
+            <form id="user-form">
+                <input type="text" placeholder="NAME" id="user-name" class="form-fields" required>
+                <input type="number" placeholder="AGE" id="user-age" min="18" max="100" class="form-fields" required>
+                <div>
+                    <input type="radio" id="male" name="gender" value="Male" required>
+                    <label for="male" id="male-label">Male</label>
 
-                <input type="radio" id="female" name="gender" value="Female">
-                <label for="female" id="female-label">Female</label>
-            </div>
-            <input type="text" placeholder="Your hobbies" id="user-hobbies" required>
-            <input type="text" placeholder="Instagram Profile" id="user-insta" required>
-            <button type="submit">Match Me</button>
-        </form>
-    </section>
-    <section id="section3">
-        <div class="match-page"><button id="back_bt">Unmatch</button></div>
-        <!-- <button id="back_bt">Unmatch</button> -->
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female" id="female-label">Female</label>
+                </div>
+                <input type="text" placeholder="YOUR HOBBIES" id="user-hobbies" class="form-fields" required>
+                <input type="text" placeholder="IG PROFILE" id="user-insta" class="form-fields" required>
+                <button id="submit-bt" type="submit">Find a Match :)</button>
+            </form>
+        </section>
+        <section id="section3">
+            <div class="match-page"><button id="back_bt">Unmatch :(</button></div>
+            <!-- <button id="back_bt">Unmatch</button> -->
 
+        </section>
     </section>
+
 
     <script src="app.js"></script>
 </body>

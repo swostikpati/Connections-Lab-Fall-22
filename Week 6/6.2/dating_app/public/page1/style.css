@@ -84,3 +84,83 @@ html {
     /* padding-top: 20px; */
 
 }
+
+
+#user-form input {
+    margin: 25px;
+    padding: 7px 54px;
+    background-color: #fae3f8;
+    color: black;
+    border: 0;
+    border-bottom: 2px solid black;
+    font-family: "Questrial";
+    text-align: center;
+}
+
+#user-form input::placeholder {
+    color: gray;
+    font-family: "Questrial";
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#user-form {
+    font-family: "Questrial";
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#heading-sec2 {
+    padding-top: 50px;
+    font-family: "Questrial";
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+#submit-bt,
+#back_bt {
+    margin: 40px;
+    padding: 15px 45px;
+    border-radius: 10px;
+    border: 0;
+    background-color: black;
+    color: white;
+    font-family: "Questrial";
+    letter-spacing: 1.5px;
+    margin-bottom: 80px;
+}
+
+#back_bt {
+    background-color: gray;
+}
+
+#submit-bt:hover {
+    cursor: pointer;
+}
+
+.match-page p {
+    font-size: 25px;
+    font-family: "Questrial";
+    padding: 15px;
+}
+
+.match-page p:nth-of-type(1) {
+    font-size: 50px;
+    font-family: "Questrial";
+    padding: 25px;
+}
+
+.profile-pic {
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+}
+
+/* #male,
+#female {
+    background-color: #fae3f8;
+    padding: 30px;
+
+} */

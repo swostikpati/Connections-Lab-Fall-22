@@ -6,7 +6,7 @@
             "name": "Noah",
             "age": "23",
             "ig": "@noah.tech",
-            "photo": "",
+            "photo": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
             "hobbies": [
                 "coding",
                 "technology",
@@ -17,7 +17,7 @@
             "name": "Aryan",
             "age": "24",
             "ig": "@retroninga",
-            "photo": "",
+            "photo": "https://images.unsplash.com/flagged/photo-1573740144655-bbb6e88fb18a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
             "hobbies": [
                 "watching shows",
                 "partying",
@@ -28,7 +28,7 @@
             "name": "Santiago",
             "age": "22",
             "ig": "@santiago",
-            "photo": "",
+            "photo": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
             "hobbies": [
                 "reading novels",
                 "drinking coffee",
@@ -39,7 +39,7 @@
             "name": "Leonardo",
             "age": "21",
             "ig": "@diCaprio",
-            "photo": "",
+            "photo": "https://images.unsplash.com/photo-1639149888905-fb39731f2e6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
             "hobbies": [
                 "travelling",
                 "playing guitar",
@@ -50,7 +50,7 @@
             "name": "Harry",
             "age": "25",
             "ig": "@not_harry",
-            "photo": "",
+            "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
             "hobbies": [
                 "sketching",
                 "cycling",
@@ -63,7 +63,7 @@
             "name": "Luna",
             "age": "21",
             "ig": "@luna.pvt",
-            "photo": "",
+            "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
             "hobbies": [
                 "travelling",
                 "playing guitar",
@@ -74,7 +74,7 @@
             "name": "Amy",
             "age": "24",
             "ig": "@__.xamyx.__",
-            "photo": "",
+            "photo": "https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
             "hobbies": [
                 "coding",
                 "technology",
@@ -85,7 +85,7 @@
             "name": "Amelia",
             "age": "20",
             "ig": "@amelia",
-            "photo": "",
+            "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
             "hobbies": [
                 "sketching",
                 "cycling",
@@ -96,7 +96,7 @@
             "name": "Elena",
             "age": "23",
             "ig": "@ellie",
-            "photo": "",
+            "photo": "https://images.unsplash.com/photo-1614436163996-25cee5f54290?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=442&q=80",
             "hobbies": [
                 "reading novels",
                 "drinking coffee",
@@ -107,7 +107,7 @@
             "name": "Olivia",
             "age": "22",
             "ig": "@olivia_gomez",
-            "photo": "",
+            "photo": "https://images.unsplash.com/photo-1605993439219-9d09d2020fa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
             "hobbies": [
                 "watching shows",
                 "partying",
