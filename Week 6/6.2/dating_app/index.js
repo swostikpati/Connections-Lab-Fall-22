@@ -13,6 +13,7 @@ app.use("/", express.static("public/page1/"));
 app.get("/match", (req, res) => {
     console.log(req.query);
     let k = req.query.id;
+    let rand_index = req.query.no;
     let g;
     if (k == "1") {
         g = "male"
@@ -21,10 +22,10 @@ app.get("/match", (req, res) => {
         g = "female"
     }
     if (userJSON[g]) {
-        res.json(userJSON[k]);
+        res.json(userJSON[g][rand_index]);
     }
-    // else {
-    //     res.json({ name: "error" }); //can also add res.error
-    // }
+    else {
+        res.json({ name: "error" }); //can also add res.error
+    }
     // res.json(userJSON);
 })

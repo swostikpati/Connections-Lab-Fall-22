@@ -14,16 +14,18 @@
 
     <section class="user-setup">
         <form id="user-form">
-            <input type="text" name="" id="">
-            <input type="text" name="" id="">
-            <input type="text" name="" id="">
-            <input type="text" name="" id="">
-            <input type="text" name="" id="">
-            <input type="text" name="" id="">
-            <input type="text" name="" id="">
-            <input type="text" name="" id="">
-            <input type="text" name="" id="">
-            <input type="text" name="" id="">
+            <input type="text" placeholder="Name" id="user-name" required>
+            <input type="number" placeholder="Age" id="user-age" min="18" required>
+            <div>
+                <input type="radio" id="male" name="gender" value="Male" required>
+                <label for="male" id="male-label">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female" id="female-label">Female</label>
+            </div>
+            <input type="text" placeholder="Your hobbies" id="user-hobbies" required>
+            <input type="text" placeholder="Instagram Profile" id="user-insta" required>
+            <button type="submit">Match Me</button>
         </form>
     </section>
 
