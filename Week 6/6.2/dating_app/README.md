@@ -39,6 +39,15 @@ There is a lot going on in the server-side of things where, based only data rele
 
 ## Setting up project in local system
 
+• Download all the project files and store them in a single directory in your computer.
+
+• Open the terminal and navigate to the directory
+
+• Make sure node is installed and running in your system. If not then, install it from 
+
+• Run the following code:
+
+• Go to localhost:3000 in your browser and you will be able to access the website.
 
 
 
