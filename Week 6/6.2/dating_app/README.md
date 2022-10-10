@@ -2,6 +2,8 @@
 
 To download and run the project in your own local system, please follow the steps [here](https://github.com/swostikpati/Connections-Lab-Fall-22/blob/main/Week%206/6.2/dating_app/README.md#setting-up-project-in-local-system).
 
+If you just want to try out the UI of the website, use this [link](https://swostikpati.github.io/Connections-Lab-Fall-22/Week%206/6.2/dating_app/public/page1/). Do keep in mind that the server-side of the website won't work and hence you won't be able to enjoy the full functionality of the website (you won't be able to use the match function).
+
 This is the implementation video of the application:
 
 https://user-images.githubusercontent.com/67205637/194856304-69ab6d71-421b-4593-9d62-1ee9c67a840d.mp4
@@ -54,6 +56,7 @@ npm start
 This would download all the node_modules and express packages that are required to run the website.
 
 • Go to localhost:3000 in your browser and you will be able to access the website.
+
 
 
 
