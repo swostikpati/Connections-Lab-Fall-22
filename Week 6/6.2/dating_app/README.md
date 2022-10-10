@@ -1,10 +1,11 @@
 # Project Documentation - Dating Application
 
+To download and run the project in your own local system, please follow the steps [here](https://github.com/swostikpati/Connections-Lab-Fall-22/blob/main/Week%206/6.2/dating_app/README.md#setting-up-project-in-local-system).
+
 This is the implementation video of the application:
 
 https://user-images.githubusercontent.com/67205637/194856304-69ab6d71-421b-4593-9d62-1ee9c67a840d.mp4
 
-To download and run the project in your own local system, please follow the steps [here](https://github.com/swostikpati/Connections-Lab-Fall-22/blob/main/Week%206/6.2/dating_app/README.md#setting-up-project-in-local-system).
 ## Motivation
 A few years ago I read this random comment somewhere in facebook which said "We should create a dating application which asks the users several questions but in the end matches people based on a simple random-matching algorithm in O(n). It was based on giving random people a chance with each other. The idea was so funny and creative that it had stuck with me since and in this assignment I thought of trying it out. 
 
@@ -43,9 +44,14 @@ There is a lot going on in the server-side of things where, based only data rele
 
 • Open the terminal and navigate to the directory
 
-• Make sure node is installed and running in your system. If not then, install it from 
+• Make sure node and npm are installed and running in your system. If not then, install it from [Nodejs.org](https://nodejs.org/en/download/)
 
 • Run the following code:
+```
+npm i express
+npm start
+```
+This would download all the node_modules and express packages that are required to run the website.
 
 • Go to localhost:3000 in your browser and you will be able to access the website.
 
