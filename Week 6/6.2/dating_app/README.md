@@ -7,7 +7,7 @@ To download and run the project in your own local system, please follow the step
 A few years ago I read this random comment somewhere in facebook which said "We should create a dating application which asks the users several questions but in the end matches people based on a simple random-matching algorithm in O(n). It was based on giving random people a chance with each other. The idea was so funny and creative that it had stuck with me since and in this assignment I thought of trying it out. 
 
 ## Wireframe
-This is the [initial wireframe]() of the project. Some changes came up since where I chose to remove the navbar and the footer as they felt unecessary to me. 
+This is the [initial wireframe](https://github.com/swostikpati/Connections-Lab-Fall-22/blob/main/Week%206/6.2/dating_app/datingApp_wireframe.pdf) of the project. Some changes came up since where I chose to remove the navbar and the footer as they felt unecessary to me. 
 
 ## API
 The API I created is stored in the file [users.json](https://github.com/swostikpati/Connections-Lab-Fall-22/blob/main/Week%206/6.2/dating_app/users.json). It contains the details of all the pre-existing profiles present in the dating app.
