@@ -15,3 +15,6 @@
 
 ## Week 5 | Project 1 - Final
 ### • [Project 1 - Text Portrait Web Application (Final)](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%205/5.2/project1_final)
+
+## Week 6 | Node-Express
+### • [Dating Application](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%206/6.2/dating_app)
