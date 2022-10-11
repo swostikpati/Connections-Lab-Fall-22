@@ -50,7 +50,7 @@ There is a lot going on in the server-side of things where, based only data rele
 
 • Run the following code:
 ```
-npm i express
+npm install
 npm start
 ```
 This would download all the node_modules and express packages that are required to run the website.
