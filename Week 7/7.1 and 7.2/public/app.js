@@ -36,12 +36,19 @@ window.addEventListener("load", () => {
     })
 })
 
+let chatMsgs = document.querySelector("#chat-msgs");
+
 function refreshMsgs() {
     //GET request from the API
     fetch('/messages')
         .then(res => res.json())
         .then(data => {
             console.log(data);
+            chatMsgs.innerHTML = "";
+            let allChats = data.msgs;
+            allChats.forEach((chat) => {
+                chatMsgs.innerHTML += `<li>${chat.name} - ${chat.msg}</li>`
+            })
             //clear out the HTML div that contains all the messages
             //add all the new messages that we have
         })
