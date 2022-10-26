@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Questrial&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+h1,
+p {
+    font-family: "Questrial";
+}
+
+.container,
+.chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#chat-name {
+    border: 0;
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 85px;
+}
+
+#chat-msg {
+    border: 0;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+#submit-button {
+    background: none;
+    border: none;
+}
+
+#submit-button img {
+    height: 25px;
+    width: 25px;
+
+}
+
+#submit-button:hover {
+    cursor: pointer;
+}
