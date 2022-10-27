@@ -7,10 +7,11 @@ socket.on("connect", () => {
 
 function setup() {
     createCanvas(4000, 4000);
-    background("#000000");
+    background("#FFF5EE");
     // fill();
     // noStroke();
-    stroke("#fff890")
+    stroke("#191970");
+    strokeWeight(15);
 }
 
 function mouseDragged() {
@@ -22,7 +23,7 @@ function mouseDragged() {
         x2: pmouseX,
         y2: pmouseY
 
-    }
+    };
     socket.emit("mouseData", mouseObj); //sends mouseData to the server - mouseData is the label
 
 }
