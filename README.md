@@ -18,3 +18,9 @@
 
 ## Week 6 | Node-Express
 ### • [Dating Application](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%206/6.2/dating_app)
+
+## Week 7 | Integrating Databases - NeDB
+### • [ChatLab](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%207/7.1%20and%207.2)
+
+## Week 8 | Socket.io
+### • [Draw Together](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%208/8.2/drawTogether)
