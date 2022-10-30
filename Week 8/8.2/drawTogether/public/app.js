@@ -10,7 +10,7 @@ function setup() {
     background("#FFF5EE");
     // fill();
     // noStroke();
-    //stroke("#191970");
+    stroke("#191970");
     strokeWeight(15);
 }
 
