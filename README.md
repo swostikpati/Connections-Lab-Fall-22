@@ -24,3 +24,7 @@
 
 ## Week 8 | Socket.io
 ### • [Draw Together](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%208/8.2/drawTogether)
+
+## Week 9 | Sockets - Namespaces and Rooms
+### • [Draw Together V2](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%209/9.2/drawTogetherV2)
+
