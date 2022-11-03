@@ -48,3 +48,7 @@ function drawPainting(data) {
     // ellipse(data.x, data.y, 10);
     line(data.x1, data.y1, data.x2, data.y2)
 }
+
+// window.addEventListener("load", () => {
+//     document.querySelector("#room-name")
+// })
