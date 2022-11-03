@@ -43,6 +43,7 @@ publicSockets.on("connect", (socket) => {
     socket.on("mouseData", (data) => {
         // console.log(data);
         publicSockets.emit("serverData", data); //emits back to all the clients 
+        privateSockets.emit("serverData", data); //whatever is in the public space is also visible to the private space
     })
 
 })
@@ -54,6 +55,12 @@ let privateSockets = io.of("/privateSpace");
 privateSockets.on("connect", (socket) => {
     console.log("New connection:", socket.id);
 
+    //when client sends request to join a room
+    socket.on("roomJoin", (data) => {
+        socket.roomName = data.name; //creating an attribute of name in the socket object
+        socket.join(socket.roomName); //joins room
+    })
+
     //checking disconnection of the specific socket
     socket.on("disconnect", () => {
         console.log("Socket disconnected", socket.id);
@@ -62,7 +69,7 @@ privateSockets.on("connect", (socket) => {
     //when server gets mouseData from client - data labels need to match
     socket.on("mouseData", (data) => {
         // console.log(data);
-        privateSockets.emit("serverData", data); //emits back to all the clients 
+        privateSockets.to(socket.roomName).emit("serverData", data); //emits back to all the clients 
     })
 
 })

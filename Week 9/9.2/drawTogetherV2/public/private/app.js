@@ -1,8 +1,18 @@
 let socket = io("/privateSpace"); //establishes connection with the socket server
 
+//adding rooms
+let roomName = window.prompt("Enter a room name - animals only");
+console.log("ROOM : ", roomName);
+//add checks to make sure that the user adds a prompt
+
+
 //client acknowledging after server confirmation - connect is a keyword
 socket.on("connect", () => {
     console.log("Connection established to server via sockets");
+    let roomData = {
+        name: roomName
+    }
+    socket.emit("roomJoin", roomData);
 })
 
 function setup() {
