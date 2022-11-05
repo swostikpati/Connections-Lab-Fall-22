@@ -8,3 +8,4 @@
 • made socket rooms and regulated checks
 • Started concatenating bunch of words into strings and sending them to from server side to client side
 • Added color change to text on typing
+• Incorporated winner calculation
