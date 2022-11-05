@@ -7,3 +7,4 @@
 • Created a JSON file with the worlds 1k english words
 • made socket rooms and regulated checks
 • Started concatenating bunch of words into strings and sending them to from server side to client side
+• Added color change to text on typing
