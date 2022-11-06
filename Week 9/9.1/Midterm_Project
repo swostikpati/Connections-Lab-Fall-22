@@ -5,7 +5,9 @@
 • Created Wireframe together with Aibar
 • Created information flow together with Aibar
 • Created a JSON file with the worlds 1k english words
-• made socket rooms and regulated checks
+• made socket rooms and regulated checks and handled all edge cases
 • Started concatenating bunch of words into strings and sending them to from server side to client side
 • Added color change to text on typing
+• Added race start and race end handling all edge cases
 • Incorporated winner calculation
+• Added cursor blinking and movement
