@@ -11,3 +11,4 @@
 • Added race start and race end handling all edge cases
 • Incorporated winner calculation
 • Added cursor blinking and movement
+• Integrated multiuser cursor support
