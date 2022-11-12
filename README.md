@@ -28,3 +28,5 @@
 ## Week 9 | Sockets - Namespaces and Rooms
 ### • [Draw Together V2](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%209/9.2/drawTogetherV2)
 
+## Week 10 | Midterm Project
+### • [Typerrr](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%2010/Typerrr)
