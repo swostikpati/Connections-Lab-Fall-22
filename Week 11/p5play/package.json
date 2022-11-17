@@ -1,0 +1,16 @@
+{
+  "name": "p5play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "p5.play": "^3.2.11",
+    "planck": "^1.0.0-alpha.4"
+  }
+}
