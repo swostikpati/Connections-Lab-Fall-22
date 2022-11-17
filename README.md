@@ -30,3 +30,6 @@
 
 ## Week 10 | Midterm Project
 ### • [Typerrr](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%2010/Typerrr)
+
+## Week 11 | Popular Client-side Libraries
+### • [Summary](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%2011)
