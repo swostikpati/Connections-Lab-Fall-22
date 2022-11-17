@@ -3,6 +3,7 @@ let app = express();
 app.use(express.json());
 const PORT = 5000;
 
+//Socket io admin - https://socket.io/docs/v4/admin-ui/
 
 //creating an http server on the express app as we are working with sockets
 let http = require("http");
@@ -18,8 +19,23 @@ app.use("/", express.static("public"));
 //add sockets to the http server
 
 let io = require("socket.io");
-io = new io.Server(server);
+// io = new io.Server(server); //normal syntax
 
+const { instrument } = require("@socket.io/admin-ui"); //for admin UI
+
+//for admin UI
+io = new io.Server(server, {
+    cors: {
+        origin: ["https://admin.socket.io"],
+        credentials: true
+    }
+});
+
+instrument(io, {
+    auth: false
+});
+
+//in admin UI remove the slash while entering the website URL
 // So we created an express app, created a http server over the express app, and then added socket.io to the http server
 
 /* Information flow
