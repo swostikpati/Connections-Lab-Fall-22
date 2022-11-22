@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Questrial&display=swap');
 
 /* Styling the Navbar */
-#logo {
-    cursor: pointer;
+.logo {
+    /* cursor: pointer; */
     padding: 0;
-}
-
-#logo img {
-    width: 20%;
-    height: 20%;
+    width: 80px;
+    height: 80px;
 }
 
 .header {
@@ -26,12 +23,12 @@
 
 .nav_links li a {
 
-    font-family: "Questrial";
+    font-family: sans-serif;
     font-weight: 500;
-    font-size: 40px;
-    color: #9578D3;
+    font-size: 30px;
+    color: #7c8e8e;
     text-decoration: none;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 
     padding-left: 30px;
     transition: color 0.7s;
@@ -44,5 +41,14 @@
 }
 
 .nav_links li a:hover {
-    color: #00ce7c;
+    color: #151515;
+}
+
+.fav_span {
+    color: #151515;
+    font-size: 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px;
 }

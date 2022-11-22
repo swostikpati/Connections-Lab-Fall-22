@@ -1,25 +1,6 @@
 import EventList from "../components/events/EventList";
 import { useState, useEffect } from "react";
 
-// const data = [
-//     {
-//         id: "e1",
-//         title: "Game Night",
-//         img: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-//         date: "2022-12-20",
-//         location: "Baraha",
-//         description: "Come and play games"
-//     },
-//     {
-//         id: "e2",
-//         title: "Midnight breakfast",
-//         img: "https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=",
-//         date: "2023-03-02",
-//         location: "Dining Hall East",
-//         description: "Have Amazing food"
-//     }
-// ]
-
 function AllEventsPage() {
     const [isLoading, setIsLoading] = useState(true);
     const [loadedEvents, setLoadedEvents] = useState([]);

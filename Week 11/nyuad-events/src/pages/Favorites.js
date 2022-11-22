@@ -17,7 +17,7 @@ function FavoritesPage() {
     }
 
     return <div>
-        <h1>My Favorite Events</h1>
+        <h1>Favorites</h1>
         {content}
     </div>;
 }
