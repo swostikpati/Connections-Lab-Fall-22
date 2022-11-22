@@ -14,6 +14,20 @@ This is the [initial wireframe]() of the website. I have mostly stuck to it with
 
 ## Learnings
 
+• Understanding how React JS functions was my most important learning. The way there is only a single html file regardless of the number of web-pages that we are rendering took me a while to understand.
+
+• Majority of the code is written using JSX, which is analogous to saying that we are writing HTML in JS with some subtle, but very important differences.
+
+• Coding in react is based in coding components, ui elements, layouts, pages, etc, and rendering all of them together. Coding practices put a lot of importance to keep every file as uncluttered as possible and increaseing reusability of code blocks.
+
+• React allows us to create our own components (must start with a capital letter) that are rendered as functions.
+
+• Props allow us to create and work with attributes on our self made components. ```props.children``` allows us to access everything that has been wrapped around a specific tag. 
+
+• There exist several keyword attributes in JSX that are different from standard HTML, for e.g class is written as className. JSX also allows self-closing tags.
+
+• 
+
 ## Challenges
 
 • Understanding ReactJS was like re-learning many parts of Front-end development. Navigating through this path was definitely quite difficult and a very big challenge especially considering the time constraint. I am still in the process of becoming comfortable with the core principles but I feel I am at a much better place than when I began from.
@@ -30,4 +44,9 @@ The application is at a very rudimentary stage and there is a lot of scope for i
 
 • More features, like being able to RSVP directly from the application, photo gallery, calander integration, etc. can be added.
 
-•
+## References
+
+• [React JS Documentation]()
+
+• [Udemy ReactJS Course]()
+
