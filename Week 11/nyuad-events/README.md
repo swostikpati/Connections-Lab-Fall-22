@@ -22,4 +22,12 @@ This is the [initial wireframe]() of the website. I have mostly stuck to it with
 
 ## Potential Improvements
 
-• 
+The application is at a very rudimentary stage and there is a lot of scope for improvement. Some of the very apparant ones are:
+
+• There is no check on who has the access to create events. Without this, there is a possibility of random events being created by random people and even multiple instances of the same event.
+
+• The user interface of the application is very generic and provides a major opportunity to customize it more to the school it is representing. 
+
+• More features, like being able to RSVP directly from the application, photo gallery, calander integration, etc. can be added.
+
+•
