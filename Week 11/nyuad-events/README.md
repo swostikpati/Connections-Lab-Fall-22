@@ -10,7 +10,7 @@ The creation of this application was basically a practical venture of mine to un
 
 ## Wireframe
 
-This is the [initial wireframe]() of the website. I have mostly stuck to it with minor changes here and there.
+This is the [initial wireframe](https://github.com/swostikpati/Connections-Lab-Fall-22/blob/main/Week%2011/nyuad-events/NYUAD%20Events_wireframe.pdf) of the website. I have mostly stuck to it with minor changes here and there.
 
 ## Learnings
 
