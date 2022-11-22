@@ -26,6 +26,8 @@ This is the [initial wireframe]() of the website. I have mostly stuck to it with
 
 • There exist several keyword attributes in JSX that are different from standard HTML, for e.g class is written as className. JSX also allows self-closing tags.
 
+• Routing in React works differently. It is done without sending additional http requests to the server and instead rendered locally. Routing requires using the package of ```react-router-dom```. All individual routes must be wrapped around with ```Routes```
+
 • 
 
 ## Challenges
