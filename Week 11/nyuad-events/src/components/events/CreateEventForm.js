@@ -33,7 +33,7 @@ function CreateEventForm(props) {
                     <input type="text" id="title" ref={titleInputRef} required />
                 </div>
                 <div className={styles.control}>
-                    <label htmlFor="image">Event Banner</label>
+                    <label htmlFor="image">Event Image - URL</label>
                     <input type="url" id="image" ref={imageInputRef} required />
                 </div>
                 <div className={styles.control}>
