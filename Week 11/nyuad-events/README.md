@@ -54,7 +54,7 @@ The application is at a very rudimentary stage and there is a lot of scope for i
 
 ## References
 
-• [React JS Documentation]()
+• [React JS Documentation](https://reactjs.org/docs/getting-started.html)
 
-• [Udemy ReactJS Course]()
+• [Udemy ReactJS Course](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
 
