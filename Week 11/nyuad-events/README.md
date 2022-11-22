@@ -28,7 +28,13 @@ This is the [initial wireframe]() of the website. I have mostly stuck to it with
 
 • Routing in React works differently. It is done without sending additional http requests to the server and instead rendered locally. Routing requires using the package of ```react-router-dom```. All individual routes must be wrapped around with ```Routes```
 
-• 
+• State management within react helps in managing the different data that are required for React componenets to render.
+
+• ```useRef``` hook allows us to persist mutable values. ```useEffect``` hook listens for changes in specific dependecies and re-renders the code.
+
+• Styling is applied quite differently in React. Instead of styling the whole webpage, individual components are styled instead by creating css modules for each of the corresponding component js files.
+
+• Using context in React, allows us to listen of changes accross several components and change elements that are being rendered.
 
 ## Challenges
 
