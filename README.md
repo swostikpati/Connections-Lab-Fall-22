@@ -33,8 +33,8 @@
 
 ## Week 11 | Popular Client-side Libraries
 ### • [Summary - Client Side Libraries](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%2011/Client-side%20Libraries)
+### • [NYUAD Events - React JS](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%2011/nyuad-events)
 
 ## Week 12-14 | Final Project
 ### • [Albert 2.0](https://github.com/swostikpati/Albert-2.0)
 
-### • [NYUAD Events - React JS](https://github.com/swostikpati/Connections-Lab-Fall-22/tree/main/Week%2011/nyuad-events)
